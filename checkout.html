@@ -1,0 +1,84 @@
+<!-- Project one: styleguide | Fan-Hsuan(Sherry) Liao-->
+
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <title> P01: Style Guide - SherDesign</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="fonts/stylesheet.css" type="text/css" />
+  <link rel="stylesheet" href="css/styleguide.css">
+</head>
+
+<body>
+  <section id="intro">
+    <h1>Project One - Style Guide </h1>
+    <p>A style guide for the web design of imagined handmade greeting card brand SherDesign.</p>
+  </section>
+  <!-- navigation bar for switching between different pages, i.e. styleguide, citations pages -->
+  <nav id="navigation">
+    <ul>
+      <li>
+        <a href="index.html" class="button-nav">Style Guide</a>
+      </li>
+      <li>
+        <a href="product_listing.html" class="button-nav">Product Listing</a>
+      </li>
+      <li>
+        <a href="checkout.html" class="button-nav">Checkout form</a>
+      </li>
+
+    </ul>
+  </nav>
+  <!-- end of nav -->
+  <!-- multiple product listing -->
+  <!-- 3-2. product lists  -->
+  <section id="checkout_form">
+    <h2 class="header-stylize">CHECKOUT FORM</h2>
+    <div class="flex">
+      <div class="checkoutlist">
+        <h3 class="header-three">Order Summary <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>2 items</b></span></h3>
+        <p class="item-text">RAD DAD <span class="price">$3.99</span></p>
+        <p class="item-text">Friend's B-day<span class="price">$6.99</span></p>
+        <hr>
+        <p class="item-text">Total <span class="price" style="color:black"><b>$10.98</b></span></p>
+      </div>
+    </div>
+
+    <h2 class="header-stylize">PAYMENT FORM</h2>
+    <div class="flex">
+
+      <div class="payformlist">
+        <form>
+          <label for="fname">Name on card: </label>
+          <input type="text" name="name1" class ="text_input1" id ="fname"><br>
+          <label for="bname">Credit card#: </label>
+          <input type="text" name="name1" class ="text_input1" id ="bname"><br>
+          <label for="cname">Expired date: </label>
+          <input type="text" name="name1" class ="text_input1" id ="cname"><br>
+
+          <label for="money">Delivery:</label>
+          <select id="money" name="money">
+            <option value="express">Express Delivery</option>
+            <option value="regular">Regular Delivery</option>
+            <option value="pickup">Pick up at Stores</option>
+          </select>
+          <br>
+          <div class="message">
+            <label for="subject">Comments for personalized cards:</label>
+            <br>
+            <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+          </div>
+          <input type="submit" class="button-form-submit">
+          <input type="reset" class="button-form-reset">
+        </form>
+      </div>
+    </div>
+
+</section>
+<!-- end of 3-2. product lists  -->
+</body>
+</html>

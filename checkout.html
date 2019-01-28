@@ -21,7 +21,7 @@
   <script type="text/javascript" src="script/index.js"></script>
 </head>
 
-<body>
+<body class="checkout">
   <section id="intro">
     <h1>Project One - Style Guide </h1>
     <p>A style guide for the web design of imagined handmade greeting card brand SherDesign.</p>
@@ -48,9 +48,12 @@
     <h2 class="header-stylize">CHECKOUT FORM</h2>
     <div class="flex">
       <div class="checkoutlist">
-        <h3 class="header-three">Order Summary <span class="item_count">2 items </span> </h3>
-        <!-- <p class="item-text">RAD DAD <span class="price">$3.99</span></p>
-        <p class="item-text">Friend's B-day<span class="price">$6.99</span></p> -->
+        <h3 class="header-three">Order Summary <span class="item_count"> </span> </h3>
+        <div class="items">
+
+        </div>
+        <!-- <p class="item-text">RAD DAD <span class="price">$3.99</span></p> -->
+
         <hr>
 
       </div>
@@ -61,12 +64,21 @@
 
       <div class="payformlist">
         <form>
-          <label for="fname">Name on card: </label>
-          <input type="text" name="name1" class ="text_input1" id ="fname"><br>
-          <label for="bname">Credit card#: </label>
-          <input type="text" name="name1" class ="text_input1" id ="bname"><br>
-          <label for="cname">Expired date: </label>
-          <input type="text" name="name1" class ="text_input1" id ="cname"><br>
+          <div>
+            <label for="fname">Name on card: </label>
+            <input type="text" name="name1" class ="text_input1" id ="fname">
+          </div>
+
+          <div>
+            <label for="bname">Credit card#: </label>
+            <input type="text" name="name1" class ="text_input1" id ="bname">
+          </div>
+
+          <div>
+            <label for="cname">Expired date: </label>
+            <input type="text" name="name1" class ="text_input1" id ="cname">
+          </div>
+
 
           <label for="money">Delivery:</label>
           <select id="money" name="money">
@@ -74,11 +86,12 @@
             <option value="regular">Regular Delivery</option>
             <option value="pickup">Pick up at Stores</option>
           </select>
-          <br>
+
           <div class="message">
             <label for="subject">Comments for personalized cards:</label>
-            <br>
-            <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+            <div>
+              <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+            </div>
           </div>
           <input type="submit" class="button-form-submit">
           <input type="reset" class="button-form-reset">

@@ -1,8 +1,38 @@
 $(document).ready(function() {
-  var cart = {};
   var cartCount = 0;
 
+  /*
+    The following section are the codes to retrieve cart info
+  */
 
+  if(document.body.className === 'checkout'){
+    var cart = {};
+    $('.item_count').text(localStorage.length + " Item(s)");
+    // Getting items from localstorage
+    for(let storage_index = 0; storage_index < localStorage.length; storage_index++) {
+
+      cart[storage_index] = JSON.parse(localStorage.getItem(storage_index));
+
+      // HTML DOM Construction syntax retrieved from https://stackoverflow.com/questions/9760328/clearest-way-to-build-html-elements-in-jquery
+      var $item = $([
+          "<p class='item-text'>" + cart[storage_index].Item + " <span class='price'>$" + cart[storage_index].Price + "</span> <span> Quantity:" + cart[storage_index].Quantity + "</span></p>"
+        ].join("\n"));
+
+      $(".items").append($item);
+    }
+
+  }
+
+  $('.button-form-submit').on('click', function (event) {
+    localStorage.clear();
+  })
+
+
+
+
+  /*
+    The following section are the codes to save items user wish to buy into a cart
+  */
   // For Rad Dad
   // For the purpose and the scale of this project I will have multiple click event for each item
   $('.rad_dad').on('click', function(event) {
@@ -32,7 +62,7 @@ $(document).ready(function() {
     $('input[name=option1]:checked')[0].checked = false;
     $('input[name=quantity]').val(1);
 
-    cart[cartCount] = {
+    var result = {
       Item: "Rad Dad",
       Price: "3.99",
       Quantity: quantity,
@@ -41,7 +71,8 @@ $(document).ready(function() {
       Delivery: delivery_method
     }
 
-    console.log(cart);
+    // Saving object to localStorage for easy data communcation setup
+    localStorage.setItem(cartCount, JSON.stringify(result));
     cartCount++;
   });
 
@@ -73,8 +104,8 @@ $(document).ready(function() {
     $('input[name=option]:checked')[0].checked = false;
     $('input[name=quantity2]').val(1);
 
-    cart[cartCount] = {
-      Item: "Couldn't Pick a Better Friend Birthday Card",
+    var result = {
+      Item: "Friend's B-day",
       Price: "6.99",
       Quantity: quantity,
       Total: price,
@@ -82,7 +113,8 @@ $(document).ready(function() {
       Delivery: delivery_method
     }
 
-    console.log(cart);
+    // Saving object to localStorage for easy data communcation setup
+    localStorage.setItem(cartCount, JSON.stringify(result));
     cartCount++;
   });
 });

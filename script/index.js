@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var cartCount = 0;
+  var cartCount = localStorage.length;
 
   /*
     The following section are the codes to retrieve cart info

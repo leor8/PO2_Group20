@@ -41,6 +41,7 @@ $(document).ready(function() {
     var delivery_method = $('input[name=option1]:checked').val();
     var quantity = Number($('input[name=quantity]').val());
     var price = 3.99;
+    var totalPrice;
     var msg;
 
     // If user did not choose a deliver method
@@ -54,7 +55,7 @@ $(document).ready(function() {
     }
 
     // Fixing decemal places to 2 for display
-    price = (price * quantity).toFixed(2);
+    totalPrice = (price * quantity).toFixed(2);
 
     // Resetting selected fields
     $('.dad_text').val("");
@@ -64,9 +65,9 @@ $(document).ready(function() {
 
     var result = {
       Item: "Rad Dad",
-      Price: "3.99",
+      Price: price,
       Quantity: quantity,
-      Total: price,
+      Total: totalPrice,
       Message: msg,
       Delivery: delivery_method
     }
@@ -83,6 +84,7 @@ $(document).ready(function() {
     var delivery_method = $('input[name=option]:checked').val();
     var quantity = Number($('input[name=quantity2]').val());
     var price = 6.99;
+    var totalPrice;
     var msg;
 
     // If user did not choose a deliver method
@@ -96,7 +98,7 @@ $(document).ready(function() {
     }
 
     // Fixing decemal places to 2 for display
-    price = (price * quantity).toFixed(2);
+    totalPrice = (price * quantity).toFixed(2);
 
      // Resetting selected fields
     $('.friend_text').val("");
@@ -106,9 +108,9 @@ $(document).ready(function() {
 
     var result = {
       Item: "Friend's B-day",
-      Price: "6.99",
+      Price: price,
       Quantity: quantity,
-      Total: price,
+      Total: totalPrice,
       Message: msg,
       Delivery: delivery_method
     }

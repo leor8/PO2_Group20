@@ -415,6 +415,7 @@ SITE COLOUR PALETTE
   background-color: white;
   margin-bottom:0.5em;
 }
+
 /* images resize for images_as_a_link, FONTS */
 #images_as_a_link img, #font_choices img,#art_direction img{
   max-width: 100%;

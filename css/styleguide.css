@@ -400,6 +400,7 @@ SITE COLOUR PALETTE
 
 /* company paragraph */
 .paragraph-text {
+  padding: .5em;
 
   /* Font settings */
   font-size: 0.87em;

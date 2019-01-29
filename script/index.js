@@ -10,8 +10,7 @@ $(document).ready(function() {
     $('.item_count').text(localStorage.length + " Item(s)");
     // Getting items from localstorage
     for(let storage_index = 0; storage_index < localStorage.length; storage_index++) {
-
-      cart[storage_index] = JSON.parse(localStorage.getItem(storage_index));
+      cart[storage_index] = JSON.parse(localStorage.getItem(localStorage.key(storage_index)));
 
       // HTML DOM Construction syntax retrieved from https://stackoverflow.com/questions/9760328/clearest-way-to-build-html-elements-in-jquery
       var $item = $([

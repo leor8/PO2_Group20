@@ -321,8 +321,6 @@ SITE COLOUR PALETTE
 /* Clear interaction response for numbered list */
 .list-numbered li:hover, .bulleted_list li:hover {
   cursor: crosshair;
-  /* highlight green */
-  background-color: #f4ff81;
 
 }
 

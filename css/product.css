@@ -1,19 +1,121 @@
+
+/* The most outter container of all the products*/
 .product_listings {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 5rem;
+  margin-left: 3.6rem;
   margin-right: 5rem;
   margin-top: 4rem;
 }
 
+/* Each product aka flex item*/
 .product {
   flex: 1 0 30%;
   margin-left: 2rem;
   margin-bottom: 3rem;
+
+  /*max-width: 220px;*/
+}
+
+.product_content {
+  display: block;
+  margin: auto;
+  height: 100px;
+  width: 250px;
 }
 
 .product_img {
-  max-height: 300px;
+  height: 300px;
+  width: 250px;
+  margin-left: 1rem;
+  overflow: auto;
   display: block;
   margin: auto;
+
+  background-image: url("../img/RadDad.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  /*transition: background-image .1s;*/
 }
+
+.product_img:hover, .product_img:focus{
+  background-image: url("../img/thankyou_card.png");
+}
+
+
+.product_title {
+  font-size: 18px;
+  text-align: center;
+  margin-left: -2rem;
+  margin-top: 1rem;
+
+  /*Removing bold from heading*/
+  font-weight: normal;
+}
+
+.product_detail {
+  margin-top: .5rem;
+
+  /*display: inline-flex;*/
+}
+
+.product_price {
+  display: inline-block;
+
+}
+
+.ratings {
+  display: inline-block;
+  margin-left: 2rem;
+
+  flex: 1;
+}
+
+.rating_count {
+  display: inline-block;
+}
+
+.fa-star {
+  color:  rgb(255,255,0);
+  margin-left: -.5rem;
+}
+
+.cart {
+  font-size: 15px;
+
+  padding: .3rem .8rem;
+  border-radius: 3px;
+  border: 1px solid red;
+  color: red;
+  /*Removing outline when button is clicked*/
+  outline: none;
+
+  transition: background-color .5s, color .5s;
+
+  /*Positioning*/
+  display: block;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+.cart:hover, .cart:focus {
+  background-color: darkred;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

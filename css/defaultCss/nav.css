@@ -30,14 +30,14 @@
 
 /* Removing icons between nav items and leave more space*/
 @media screen and (max-width: 805px) {
-  .fas {
+  .nav_icon {
     /* Prevent fontawesome css from overriding display none*/
     display: none !important;
   }
 }
 
 @media screen and (min-width: 805px) {
-  .fas {
+  .nav_icon {
     flex: .8;
     text-align: center;
     margin-top: .3rem;

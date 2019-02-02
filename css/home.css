@@ -1,0 +1,14 @@
+.logo {
+  margin: auto;
+  margin-top: 3rem;
+  background-color: black;
+  height: 200px;
+  width: 20%;
+  border-radius: 50%;
+}
+
+.company_info {
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+}

@@ -1,0 +1,63 @@
+.navContainer {
+  display: flex;
+  width: 100%;
+  margin-top: 3rem;
+
+  /*position: fixed;*/
+  /*top: 85%;*/
+
+}
+
+.active {
+}
+
+.nav_item {
+  flex: 1;
+  text-align: center;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: red;
+  padding: .5rem;
+  transition: color .5s, background-color .5s;
+}
+
+.nav_link:hover {
+  background-color: red;
+  color: white;
+}
+
+/* Removing icons between nav items and leave more space*/
+@media screen and (max-width: 805px) {
+  .fas {
+    /* Prevent fontawesome css from overriding display none*/
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 805px) {
+  .fas {
+    flex: .8;
+    text-align: center;
+    margin-top: .3rem;
+  }
+
+  .fa-heart {
+    color: red;
+    transition: color .5s;
+  }
+
+  .fa-heart:hover {
+    color: pink;
+  }
+
+  .fa-times {
+    color: #E75480;
+    transition: color .5s;
+  }
+}
+
+
+
+

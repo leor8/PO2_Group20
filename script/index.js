@@ -32,6 +32,30 @@ $(document).ready(function() {
   /*
     The following section are the codes to save items user wish to buy into a cart
   */
+
+  // Handling all click events on add to cart button
+  $('.cart').on('click', function(evt) {
+    evt.preventDefault();
+
+    $('.container').css('background-color', 'rgba(255, 0, 0, .5');
+
+    // Checking if the cart dialog is opened
+    let opened = true;
+
+    // Using jquery family tree to retrieve product info
+    let product_name = $(this).parent().parent().children(".product_title")[0].innerHTML;
+    let product_price = $(this).parent().children(".product_price")[0].innerHTML.slice(1);
+
+    if(opened) {
+      $('html, body').css({
+          overflow: 'hidden',
+          height: '100%'
+      });
+    }
+  })
+
+
+
   // For Rad Dad
   // For the purpose and the scale of this project I will have multiple click event for each item
   $('.rad_dad').on('click', function(event) {

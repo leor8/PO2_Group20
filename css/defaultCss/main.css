@@ -17,7 +17,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Helvetica;
 }
 
+/*a {
+  text-decoration: none;
+}*/
+
 h1 {
   margin-left: 2rem;
-  margin-top: 3rem;
+  margin-top: 8rem;
 }

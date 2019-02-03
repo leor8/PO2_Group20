@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="css/defaultCss/normalize.css">
     <link rel="stylesheet" href="css/defaultCss/main.css">
     <link rel="stylesheet" href="css/defaultCss/nav.css">
-    <link rel="stylesheet" type="text/css" href="css/defaultCss/cart.css">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -34,146 +33,169 @@
   <body>
     <!-- navigation bar for switching between different pages, i.e. styleguide, product listing pages -->
     <nav class="navContainer">
-      <a class="nav_item nav_link active" href="home.html">Home</a>
+      <div class="nav_item nav_link active">
+        <a href="home.html">Home</a>
+      </div>
+
       <i class="fas fa-times nav_icon"></i>
-      <a class="nav_item nav_link" href="product_listing.html">Handmade Cards</a>
+
+      <div class="nav_item nav_link active">
+        <a href="product_listing.html">Handmade Cards</a>
+      </div>
+
+
       <i class="fas fa-heart nav_icon"></i>
-      <a class="nav_item nav_link" href="events.html">Events</a>
+
+      <div class="nav_item nav_link active">
+        <a href="events.html">Events</a>
+      </div>
+
+
       <i class="fas fa-times nav_icon"></i>
-      <a class="nav_item nav_link" href="contact.html">Contact Us</a>
+
+      <div class="nav_item nav_link active">
+        <a href="">Cart (0)</a>
+      </div>
+
+
     </nav>
 
-    <div class="shopping_cart">
-      <i class="fas fa-shopping-cart fa-2x"></i>
+    <div class="added">
+
     </div>
 
-    <h1>Handmade Greeting Cards</h2>
-    <section class="product_listings">
+    <!-- The overall container wraps all the content -->
+    <main class="container">
+      <h1>Handmade Greeting Cards</h2>
+      <section class="product_listings">
 
 
-      <div class="product">
-        <!-- <img src="img/RadDad.png" alt="fathers day card" class="product_img"> -->
-        <div class="product_img_rad"></div>
-        <div class="product_content">
-          <h2 class="product_title">Rad Dad</h2>
-          <section class="product_detail">
-            <p class="product_price">$3.99</p>
-            <div class="ratings">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <p class="rating_count">(125)</p>
-            </div>
-            <button class="cart">Add to Cart</button>
-          </section>
+        <div class="product">
+          <!-- <img src="img/RadDad.png" alt="fathers day card" class="product_img"> -->
+          <div class="product_img_rad"></div>
+          <div class="product_content">
+            <h2 class="product_title">Rad Dad</h2>
+            <section class="product_detail">
+              <p class="product_price">$3.99</p>
+              <div class="ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <p class="rating_count">(125)</p>
+              </div>
+              <button class="cart">Add to Cart</button>
+            </section>
+          </div>
+
         </div>
 
-      </div>
-
-      <div class="product">
-        <!-- <img src="img/RadDad.png" alt="fathers day card" class="product_img"> -->
-        <div class="product_img_rad"></div>
-        <div class="product_content">
-          <h2 class="product_title">Rad Dad</h2>
-          <section class="product_detail">
-            <p class="product_price">$3.99</p>
-            <div class="ratings">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <p class="rating_count">(125)</p>
-            </div>
-            <button class="cart">Add to Cart</button>
-          </section>
+        <div class="product">
+          <!-- <img src="img/RadDad.png" alt="fathers day card" class="product_img"> -->
+          <div class="product_img_rad"></div>
+          <div class="product_content">
+            <h2 class="product_title">Rad Dad</h2>
+            <section class="product_detail">
+              <p class="product_price">$6.99</p>
+              <div class="ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <p class="rating_count">(125)</p>
+              </div>
+              <button class="cart">Add to Cart</button>
+            </section>
+          </div>
         </div>
-      </div>
 
-      <div class="product">
-        <!-- <img src="img/RadDad.png" alt="fathers day card" class="product_img"> -->
-        <div class="product_img_rad"></div>
-        <div class="product_content">
-          <h2 class="product_title">Rad Dad</h2>
-          <section class="product_detail">
-            <p class="product_price">$3.99</p>
-            <div class="ratings">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <p class="rating_count">(125)</p>
-            </div>
-            <button class="cart">Add to Cart</button>
-          </section>
+        <div class="product">
+          <!-- <img src="img/RadDad.png" alt="fathers day card" class="product_img"> -->
+          <div class="product_img_rad"></div>
+          <div class="product_content">
+            <h2 class="product_title">Rad Mom</h2>
+            <section class="product_detail">
+              <p class="product_price">$3.99</p>
+              <div class="ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <p class="rating_count">(125)</p>
+              </div>
+              <button class="cart">Add to Cart</button>
+            </section>
+          </div>
         </div>
-      </div>
 
-      <div class="product">
-        <!-- <img src="img/RadDad.png" alt="fathers day card" class="product_img"> -->
-        <div class="product_img_rad"></div>
-        <div class="product_content">
-          <h2 class="product_title">Rad Dad</h2>
-          <section class="product_detail">
-            <p class="product_price">$3.99</p>
-            <div class="ratings">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <p class="rating_count">(125)</p>
-            </div>
-            <button class="cart">Add to Cart</button>
-          </section>
+        <div class="product">
+          <!-- <img src="img/RadDad.png" alt="fathers day card" class="product_img"> -->
+          <div class="product_img_rad"></div>
+          <div class="product_content">
+            <h2 class="product_title">Rad Dad</h2>
+            <section class="product_detail">
+              <p class="product_price">$3.99</p>
+              <div class="ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <p class="rating_count">(125)</p>
+              </div>
+              <button class="cart">Add to Cart</button>
+            </section>
+          </div>
         </div>
-      </div>
 
-      <div class="product">
-        <!-- <img src="img/RadDad.png" alt="fathers day card" class="product_img"> -->
-        <div class="product_img_rad"></div>
-        <div class="product_content">
-          <h2 class="product_title">Rad Dad</h2>
-          <section class="product_detail">
-            <p class="product_price">$3.99</p>
-            <div class="ratings">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <p class="rating_count">(125)</p>
-            </div>
-            <button class="cart">Add to Cart</button>
-          </section>
+        <div class="product">
+          <!-- <img src="img/RadDad.png" alt="fathers day card" class="product_img"> -->
+          <div class="product_img_rad"></div>
+          <div class="product_content">
+            <h2 class="product_title">Rad Dad</h2>
+            <section class="product_detail">
+              <p class="product_price">$3.99</p>
+              <div class="ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <p class="rating_count">(125)</p>
+              </div>
+              <button class="cart">Add to Cart</button>
+            </section>
+          </div>
         </div>
-      </div>
 
-      <div class="product">
-        <!-- <img src="img/RadDad.png" alt="fathers day card" class="product_img"> -->
-        <div class="product_img_rad"></div>
-        <div class="product_content">
-          <h2 class="product_title">Rad Dad</h2>
-          <section class="product_detail">
-            <p class="product_price">$3.99</p>
-            <div class="ratings">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <p class="rating_count">(125)</p>
-            </div>
-            <button class="cart">Add to Cart</button>
-          </section>
+        <div class="product">
+          <!-- <img src="img/RadDad.png" alt="fathers day card" class="product_img"> -->
+          <div class="product_img_rad"></div>
+          <div class="product_content">
+            <h2 class="product_title">Rad Dad</h2>
+            <section class="product_detail">
+              <p class="product_price">$3.99</p>
+              <div class="ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <p class="rating_count">(125)</p>
+              </div>
+              <button class="cart">Add to Cart</button>
+            </section>
+          </div>
         </div>
-      </div>
 
 
-    </section>
+      </section>
+    </main>
+
+
     <!-- <section id="product_listing">
       <h2 class="header-stylize">PRODUCT LISTING</h2>
       <div class="flex">

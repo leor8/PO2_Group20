@@ -37,7 +37,9 @@ $(document).ready(function() {
   $('.cart').on('click', function(evt) {
     evt.preventDefault();
 
-    $('.container').css('background-color', 'rgba(255, 0, 0, .5');
+    // Grabbing the current shoping cart count and add it by one whenever add to cart is clicked
+    let cart_count = parseInt($('.shopping_cart')[0].innerHTML.slice(6).substr(0, $('.shopping_cart')[0].innerHTML.slice(6).indexOf(')'))) + 1;
+    $('.shopping_cart')[0].innerHTML = "Cart (" + cart_count + ")"
 
     // Checking if the cart dialog is opened
     let opened = true;
@@ -46,12 +48,12 @@ $(document).ready(function() {
     let product_name = $(this).parent().parent().children(".product_title")[0].innerHTML;
     let product_price = $(this).parent().children(".product_price")[0].innerHTML.slice(1);
 
-    if(opened) {
-      $('html, body').css({
-          overflow: 'hidden',
-          height: '100%'
-      });
-    }
+    // if(opened) {
+    //   $('html, body').css({
+    //       overflow: 'hidden',
+    //       height: '100%'
+    //   });
+    // }
   })
 
 

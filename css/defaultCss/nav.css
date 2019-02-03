@@ -19,22 +19,25 @@
   color: #9aa3f7;
   padding: .5rem;
   padding-bottom: .6rem;
-  /*transition: color .5s, background-color .5s;*/
 }
 
-.nav_link > a:hover {
-  border-bottom: 4px dotted #9aa3f7
+/* Threshold for text being in one line*/
+@media screen and (min-width: 603px) {
+  .nav_link > a:hover {
+    border-bottom: 4px dotted #9aa3f7
+  }
 }
+
 
 /* Removing icons between nav items and leave more space*/
-@media screen and (max-width: 805px) {
+@media screen and (max-width: 963px) {
   .nav_icon {
     /* Prevent fontawesome css from overriding display none*/
     display: none !important;
   }
 }
 
-@media screen and (min-width: 805px) {
+@media screen and (min-width: 963px) {
   .nav_icon {
     flex: .8;
     text-align: center;

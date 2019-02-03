@@ -2,7 +2,7 @@
 /* The most outter container of all the products*/
 
 .container {
-  position: relative;
+
 }
 
 .container:before {
@@ -122,12 +122,12 @@
 
 /* When Items being added Animation */
 .added {
-  position: fixed;
+  position: absolute;
   left: 65%;
 
   height: 200px;
   width: 30%;
-  /*background-color: red;*/
+  background-color: red;
 }
 
 

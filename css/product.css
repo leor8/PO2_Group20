@@ -24,7 +24,7 @@
   width: 250px;
 }
 
-.product_img {
+.product_img_rad {
   height: 300px;
   width: 250px;
   margin-left: 1rem;
@@ -39,7 +39,7 @@
   /*transition: background-image .1s;*/
 }
 
-.product_img:hover, .product_img:focus{
+.product_img_rad:hover, .product_img_rad:focus{
   background-image: url("../img/thankyou_card.png");
 }
 
@@ -99,7 +99,7 @@
   margin-left: 3rem;
 }
 
-.cart:hover, .cart:focus {
+.cart:hover, .cart:active {
   background-color: darkred;
   color: white;
 }

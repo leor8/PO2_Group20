@@ -1,29 +1,82 @@
+/* REMINDER: Responsive breakpoing should be set to 906px*/
+
+
 /* Content space for events page*/
+
+@media screen and (min-width: 906px) {
+  /* The headline */
+  .headline {
+    height: 400px;
+    display: flex;
+
+    background-color: white;
+  }
+
+  .headline_img {
+    display: block;
+    flex: 3;
+
+    max-width: 550px;
+    padding: 1rem 0 1rem 1rem;
+  }
+
+  .headline_content {
+    height: 400px;
+    flex: 1;
+
+    /* for button responsiveness*/
+    position: relative;
+  }
+
+  .headline_text {
+    margin: 1rem 1rem 0 2.5rem;
+
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 906px) {
+  .headline_img {
+    display: block;
+
+    /*width: 650px;*/
+    width: 80%;
+    height: auto;
+    margin: auto;
+  }
+
+  .headline_content {
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    /* for button responsiveness*/
+    position: relative;
+  }
+
+  .headline_title {
+    font-size: 22px;
+    padding-top: 1rem;
+
+    /* Reseeting default font size for h1*/
+    /* Important has to be used to override normalize.css*/
+    margin-top: 0 !important;
+    margin-left: 1rem;
+    text-align: center;
+  }
+
+  .headline_text {
+    margin: 1rem 2rem 0 2rem;
+
+    /*max-width: 400px;*/
+  }
+}
+
 .event_container {
   margin: 3rem 2rem 0 2rem;
   width: calc(100% - 4rem);
 }
 
-/* The headline */
-.headline {
-  height: 400px;
-  display: flex;
-
-  background-color: white;
-}
-
-.headline_img {
-  display: block;
-  flex: 3;
-
-  max-width: 650px;
-  padding: 1rem 0 1rem 1rem;
-}
-
-.headline_content {
-  height: 400px;
-  flex: 1;
-}
 
 .headline_title {
   font-size: 22px;
@@ -33,10 +86,35 @@
   margin-left: 1rem;
 }
 
-.headline_text {
-  margin: 1rem 2.5rem 0 2rem;
+.headline_button {
+  padding: .5rem;
+  display: block;
+  width: 100px;
+
+  /* positioning the button idea from https://www.sitepoint.com/community/t/possible-to-float-right-and-stick-to-bottom-simultaneously-without-using-margin/38382/2*/
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+
+  /* Button styling design*/
+  border: 1px solid red;
+  color: red;
+  transition: background-color .5s, color .5s;
 }
 
-.headline_title {
-
+.headline_button:hover, .headline_button:focus {
+  background-color: red;
+  color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+

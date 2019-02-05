@@ -1,19 +1,78 @@
 
 /* This whole background of the footer and coloumn display*/
-.footer {
-  background-color: white;
-  /*height: 200px;*/
-  width: 100%;
-  box-shadow: 0px 0px 10px 0px grey;
 
-  display: flex;
+@media screen and (min-width: 930px) {
+  .footer {
+    background-color: white;
+    /*height: 200px;*/
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px grey;
+
+    display: flex;
+  }
+
+  /* Each footer column as a flex item*/
+  .footer_item {
+    flex: 1;
+    height: 200px;
+  }
+
+  /* About the company leaving space on left and right side*/
+  .footer_company {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .social_item {
+    margin-bottom: 1rem;
+  }
+
+  .social_items {
+    display: block;
+    margin: auto;
+
+    width: 200px;
+  }
+
 }
 
-/* Each footer column as a flex item*/
-.footer_item {
-  flex: 1;
-  height: 200px;
+@media screen and (max-width: 930px) {
+  .footer {
+    background-color: white;
+    /*height: 200px;*/
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px grey;
+    padding-top: 2rem;
+  }
+
+  /* Each footer column as a flex item*/
+  .footer_item {
+    height: 150px;
+  }
+
+  .social_item {
+    flex: 1;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: .5rem;
+  }
+
+  /* About the company leaving space on left and right side*/
+  .footer_company {
+    margin-left: 4rem;
+    margin-right: 4rem;
+
+    /*Create more space between text and header*/
+    margin-top: 4vw;
+  }
+
+  .social_items {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
+
+
 
 /* Each columns heading*/
 .footer_heading {
@@ -26,25 +85,18 @@
   color: grey;
 }
 
-/* About the company leaving space on left and right side*/
-.footer_company {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
 /* Fontawesome icon colour change*/
 .fa-instagram, .fa-twitter-square, .fa-facebook-square {
   color: gray;
 }
 
-.social_item {
-  margin-left: 4rem;
-  margin-bottom: 1rem;
-}
-
 .email_input {
-  margin-left: 1rem;
-  margin-top: 1rem;
+/*  margin-left: 1rem;
+  margin-top: 1rem;*/
+
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
 
   max-width: 300px;
   display: flex;

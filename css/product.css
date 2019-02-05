@@ -1,21 +1,4 @@
-
-/* The most outter container of all the products*/
-
-.container {
-
-}
-
-.container:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  /*background: rgba(255, 0, 0, .5);*/
-}
-
+/* The most outer flex container*/
 .product_listings {
   display: flex;
   flex-wrap: wrap;
@@ -53,6 +36,7 @@
   display: block;
   margin: auto;
 
+  /*Making sure image only being rendered once and adding hover animation to change colour*/
   background-image: url("../img/RadDad.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -83,10 +67,10 @@
 
 .product_price {
   display: inline-block;
-
 }
 
 .ratings {
+  /* Displaying ratings as a flex item*/
   display: inline-block;
   margin-left: 2rem;
 
@@ -94,10 +78,12 @@
 }
 
 .rating_count {
+  /* Making the p tag display inline*/
   display: inline-block;
 }
 
 .fa-star {
+  /*Changing colours of fontawesome start icon and make them tighter*/
   color:  rgb(255,255,0);
   margin-left: -.5rem;
 }
@@ -125,15 +111,6 @@
   color: white;
 }
 
-/* When Items being added Animation */
-.added {
-  position: absolute;
-  left: 65%;
-
-  height: 200px;
-  width: 30%;
-  background-color: red;
-}
 
 
 

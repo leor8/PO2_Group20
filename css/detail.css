@@ -1,6 +1,8 @@
-.product_detail {
-  display: flex;
-  margin-bottom: 15rem;
+@media screen and (min-width: 710px) {
+  .product_detail {
+    display: flex;
+    margin-bottom: 15rem;
+  }
 }
 
 .product_image_container {
@@ -20,5 +22,34 @@
 }
 
 .product_name {
-  /*text-align: center;*/
+  /* Resetting default css on main.css */
+  margin-left: 0rem;
+}
+
+.price_rating {
+  display: flex;
+  max-width: 230px;
+}
+
+.fa-star {
+  /* Changing default size of icon */
+  font-size: 12px;
+
+  /* Making stars closer to each other*/
+  margin-left: -0.4rem;
+  color: yellow;
+}
+
+.ratings {
+  flex: 7;
+  margin-left: 2rem;
+}
+
+.rating_count {
+  display: inline-block;
+  margin-left: -.5rem;
+}
+
+.product_price {
+  flex: 1;
 }

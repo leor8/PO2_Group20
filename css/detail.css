@@ -1,7 +1,6 @@
 @media screen and (min-width: 710px) {
   .product_detail {
     display: flex;
-    margin-bottom: 15rem;
   }
 
   .product_info {

@@ -2,7 +2,7 @@
   display: flex;
   width: 100%;
   background-color: rgb(240, 240, 240);
-  margin-top: 3rem;
+  margin-top: 1rem;
 
 }
 
@@ -54,6 +54,12 @@
   }
 }
 
+.logo {
+  width: 70px;
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+}
 
 
 

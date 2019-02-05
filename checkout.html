@@ -5,46 +5,109 @@
 <html lang="en">
 
 <head>
-  <title> P02: Company - meinfunDesign</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="css/styleguide.css">
+    <title>PopDesign</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- JQuery CDN -->
-  <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
+    <link rel="icon" href="img/logo.png">
+    <!-- Place favicon.ico in the root directory -->
 
-  <!-- Main Index JavaScript -->
-  <script type="text/javascript" src="script/index.js"></script>
+    <!-- Required css for all pages -->
+    <link rel="stylesheet" href="css/defaultCss/normalize.css">
+    <link rel="stylesheet" href="css/defaultCss/main.css">
+    <link rel="stylesheet" href="css/defaultCss/nav.css">
+    <link rel="stylesheet" href="css/defaultCss/footer.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Page specific css -->
+    <link rel="stylesheet" href="css/home.css">
+
+    <!-- JQuery CDN -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+
+    <!-- Main Index JavaScript -->
+    <script type="text/javascript" src="script/index.js"></script>
 </head>
 
-<body class="checkout">
-  <section id="intro">
-    <h1>Project One - Style Guide </h1>
-    <p>A style guide for the web design of imagined handmade greeting card brand SherDesign.</p>
-  </section>
+<body>
   <!-- navigation bar for switching between different pages, i.e. styleguide, product listing pages -->
-  <nav id="navigation">
-    <ul>
-      <li>
-        <a href="index.html" class="button-nav">Style Guide</a>
-      </li>
-      <li>
-        <a href="product_listing.html" class="button-nav">Product Listing</a>
-      </li>
-      <li>
-        <a href="checkout.html" class="button-nav">Checkout Form</a>
-      </li>
+  <header>
+    <a href="home.html"><img src="img/logo.png" alt="company logo" class="logo"></a>
+  </header>
+  <nav class="navContainer">
+    <div class="nav_item nav_link">
+      <a href="home.html">Home</a>
+    </div>
 
-    </ul>
+    <i class="fas fa-times nav_icon"></i>
+
+    <div class="nav_item nav_link active">
+      <a href="product_listing.html">Handmade Cards</a>
+    </div>
+
+
+    <i class="fas fa-heart nav_icon"></i>
+
+    <div class="nav_item nav_link">
+      <a href="events.html">Events</a>
+    </div>
+
+
+    <i class="fas fa-times nav_icon"></i>
+
+    <div class="nav_item nav_link">
+      <a class="shopping_cart" href="checkout.html">Cart (10)</a>
+    </div>
+
+
   </nav>
-  <!-- end of nav -->
-  <!-- multiple product listing -->
-  <!-- 3-2. product lists  -->
-  <section id="checkout_form">
+
+  <footer class="footer">
+    <section class="footer_item">
+      <h2 class="footer_heading"> ABOUT </h2>
+      <p class="footer_company">something about company something about company about company about company about company about company about company about company</p>
+    </section>
+    <section class="footer_item">
+      <h2 class="footer_heading">SOCIAL MEDIA</h2>
+
+      <div class="social_items">
+        <div class="social_item">
+          <i class="fab fa-instagram fa-2x"></i>
+          <a class="social_link">PopDesign</a>
+        </div>
+
+        <div class="social_item">
+          <i class="fab fa-twitter-square fa-2x"></i>
+          <a class="social_link">PopDesign</a>
+        </div>
+
+        <div class="social_item">
+          <i class="fab fa-facebook-square fa-2x"></i>
+          <a class="social_link">PopDesign</a>
+        </div>
+      </div>
+
+
+    </section>
+    <section class="footer_item">
+      <h2 class="footer_heading">Subscribe</h2>
+      <p class="signup_text">Sign up for our Newsletter</p>
+      <div class="email_input">
+        <input type="email" name="email" id="email" placeholder="your@email.com"> <input type="submit" name="submit" value="SUBSCRIBE" class="sub">
+      </div>
+
+    </section>
+
+  </footer>
+
+  <!-- <section id="checkout_form">
     <h2 class="header-stylize">CHECKOUT FORM</h2>
     <div class="flex">
       <div class="checkoutlist">
@@ -52,7 +115,6 @@
         <div class="items">
 
         </div>
-        <!-- <p class="item-text">RAD DAD <span class="price">$3.99</span></p> -->
 
         <hr>
 
@@ -99,7 +161,7 @@
       </div>
     </div>
 
-</section>
+</section> -->
 <!-- end of 3-2. product lists  -->
 </body>
 </html>

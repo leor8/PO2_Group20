@@ -1,0 +1,66 @@
+
+/* This whole background of the footer and coloumn display*/
+.footer {
+  background-color: white;
+  /*height: 200px;*/
+  width: 100%;
+  box-shadow: 0px 0px 10px 0px grey;
+
+  display: flex;
+}
+
+/* Each footer column as a flex item*/
+.footer_item {
+  flex: 1;
+  height: 200px;
+}
+
+/* Each columns heading*/
+.footer_heading {
+  /*Centering the heading to the parent*/
+  text-align: center;
+
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: grey;
+}
+
+/* About the company leaving space on left and right side*/
+.footer_company {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+/* Fontawesome icon colour change*/
+.fa-instagram, .fa-twitter-square, .fa-facebook-square {
+  color: gray;
+}
+
+.social_item {
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+}
+
+.email_input {
+  margin-left: 1rem;
+  margin-top: 1rem;
+
+  max-width: 300px;
+  display: flex;
+}
+
+.signup_text {
+  /*margin-left: 3rem;*/
+  text-align: center;
+}
+
+#email {
+  flex: 3;
+}
+
+.sub {
+  font-size: .8rem;
+  padding: .4rem;
+  flex: 1;
+}

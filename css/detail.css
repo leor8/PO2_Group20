@@ -1,0 +1,24 @@
+.product_detail {
+  display: flex;
+  margin-bottom: 15rem;
+}
+
+.product_image_container {
+  flex: 1;
+  margin-top: 4rem;
+}
+
+.product_image {
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.product_info {
+  flex: 1;
+}
+
+.product_name {
+  /*text-align: center;*/
+}

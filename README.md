@@ -2,7 +2,7 @@
 
 ## Introduction
 
-SherDesign offers personalized, handmade paper greeting cards. these greeting cards are produced from recycled material and printed with a customized greeting message.
+PopDesign offers personalized, handmade 3D paper greeting cards. these greeting cards are produced from recycled material and printed with a customized greeting message.
 
 ## Visit
 

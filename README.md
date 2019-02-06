@@ -1,4 +1,4 @@
-# SherDesign
+# PopDesign
 
 ## Introduction
 
@@ -6,7 +6,7 @@ SherDesign offers personalized, handmade paper greeting cards. these greeting ca
 
 ## Visit
 
-To visit the website, go to [SherDesign](http://www.sfu.ca/~leor/IAT339/PO2_Group20/).
+To visit the website, go to [PopDesign](http://www.sfu.ca/~leor/IAT339/PO2_Group20/).
 
 OR
 

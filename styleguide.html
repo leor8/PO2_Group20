@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="css/defaultCss/footer.css">
   <!-- for button style in interactive element-->
   <link rel="stylesheet" href="css/product.css">
+  <link rel="stylesheet" href="css/checkout.css">
+
   <!-- for layout of styleguide.html  -->
   <link rel="stylesheet" href="css/styleguide.css">
 
@@ -58,17 +60,20 @@
 
     <!-- Submit and Reset button -->
     <section id="form_buttons">
-      <h2 class="header-two">Add to Cart Button</h2>
+      <h2 class="header-two">Edit and Delete Buttons</h2>
       <div class="flex">
         <div class="flex-half">
           <h3 class="header-three">Rendered Element:</h3>
-          <button class="cart">Add to Cart</button>
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
         </div>
         <div class="flex-half">
           <h3 class="header-three">CSS Selector:</h3>
-          <p>.cart</p>
+          <p>.edit, .delete</p>
           <h3 class="header-three">Sample Code:</h3>
-          <code>&lt;button class="cart"&gt;Add to Cart&lt;/button&gt;</code>
+          <code>&lt;button class="edit"&gt;Edit&lt;/button&gt;</code>
+          <br>
+          <code>&lt;button class="delete"&gt;Delete&lt;/button&gt;</code>
         </div>
       </div>
     </section>
@@ -167,17 +172,17 @@
          <div class="flex">
            <div class="flex-half">
              <h3 class="header-three">Rendered Element:</h3>
-             <ol class="list-numbered">
+             <ul class="list-unordered">
                <li>Unordered list 1</li>
                <li>Unordered list 2</li>
                <li>Unordered list 3</li>
-             </ol>
+             </ul>
            </div>
            <div class="flex-half">
              <h3 class="header-three">CSS Selector:</h3>
              <p>.list-unordered</p>
              <h3 class="header-three">Sample Code:</h3>
-             <code>&lt;ol class="list-unordered"&gt;&lt;li&gt;This is a list item inside an unordered list.&lt;/li&gt;&lt;/ol&gt;</code>
+             <code>&lt;ul class="list-unordered"&gt;&lt;li&gt;This is a list item inside an unordered list.&lt;/li&gt;&lt;/ul&gt;</code>
            </div>
          </div>
        </section>

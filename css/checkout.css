@@ -89,7 +89,8 @@
 }
 
 .cart_heading {
-  background-color: rgb(210, 210, 210);
+  background-color: #ffccdd;
+  color:#605c5d;
   margin-top: 0;
   font-size: 18px;
   padding: 1rem;
@@ -120,11 +121,11 @@
 
 
 .item_title {
-  font-size: 18px;
-  margin-top: .4rem;
-
-  padding-bottom: .3rem;
-  border-bottom: 4px solid black;
+  font-size: 1rem;
+  margin-top: 1rem;
+  color:#605c5d;
+  padding-bottom: .2rem;
+  border-bottom: 4px solid #605c5d;
   width: 180px;
 }
 
@@ -139,18 +140,43 @@
 
 .edit {
   padding: .5rem;
-  border: none;
   outline: none;
   color: white;
-  background-color: #007bff;
-}
+  background-color: #6571b7;
+  border: 1px solid #6571b7;
+  border-radius: 3px;
 
+}
+/* clear interaction for edit button */
+.edit:hover{
+  color: white;
+  background-color: #9aa3f7;
+  border: 1px solid #9aa3f7;
+
+}
+.edit:active{
+  color: #9aa3f7;
+  background-color:white;
+  border: 1px solid #9aa3f7;
+}
 .delete {
   padding: .5rem;
-  border: none;
   outline: none;
-  background-color: #dc3545;
+  color: #6571b7;
+  background-color:white;
+  border: 1px solid #6571b7;
+  border-radius: 3px;
+
+}
+.delete:hover{
+  color: #9aa3f7;
+  background-color:white;
+  border: 1px solid #9aa3f7;
+}
+.delete:active{
   color: white;
+  background-color:#9aa3f7;
+  border: 1px solid #9aa3f7;
 }
 
 
@@ -205,21 +231,3 @@
   width: 200px;
   margin-bottom: 5rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

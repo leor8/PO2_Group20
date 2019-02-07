@@ -76,7 +76,7 @@ body {
   margin-top:2rem;
 }
 
-#form_buttons,#shop_button,#input_field,
+#form_buttons,#cart_button,#shop_button,#input_field,
 #images_as_a_link,#heading-levels,#unordered_list,
 #colour_palette
 {
@@ -189,4 +189,37 @@ p{
   background-color: #ffe6ff;
   padding-top:0;
   text-decoration:underline;
+}
+
+/* shop now button style */
+.headline_button {
+text-align: left;
+padding: .5rem;
+/* display: block; */
+width: 100px;
+
+/* positioning the button idea from https://www.sitepoint.com/community/t/possible-to-float-right-and-stick-to-bottom-simultaneously-without-using-margin/38382/2*/
+/* position: absolute; */
+bottom: 1rem;
+right: 1rem;
+text-decoration: none;
+/* Button styling design*/
+/* pink background and white text  */
+color: white;
+background-color: #b4bdf9;
+border: 1px solid #b4bdf9;
+transition: background-color .5s, color .5s;
+border-radius: 3px;
+}
+
+.headline_button:hover{
+/* pink border and white text */
+background-color: #ffaec5;
+border: 1px solid #ffaec5;
+color: white;
+}
+.headline_button:focus{
+background-color: white;
+border: 1px solid #ffaec5;
+color:#ffaec5;
 }

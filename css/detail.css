@@ -83,7 +83,7 @@
   margin-top: 1rem;
 }
 /* clear interaction for add to cart button */
-.cart:hover {
+.cart:hover, .cart:focus {
   /* light pink */
   border: 1px solid #ffaec5;
   background-color: white;

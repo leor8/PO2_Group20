@@ -110,7 +110,7 @@
   background-color: white;
 }
 
-.cart:hover {
+.cart:hover, .cart:focus {
   /* light pink */
   border: 1px solid #ffaec5;
   background-color: white;

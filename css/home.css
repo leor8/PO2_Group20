@@ -39,7 +39,7 @@
   transition: background-color .5s;
 }
 
-.shop_now:hover {
+.shop_now:hover, .shop_now:focus {
   background-color: #b4bdf9;
 }
 

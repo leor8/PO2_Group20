@@ -157,7 +157,7 @@
   min-width: 8em;
 }
 /* clear interaction for edit button */
-.edit:hover{
+.edit:hover, .edit:focus{
   color: white;
   background-color: #9aa3f7;
   border: 1px solid #9aa3f7;
@@ -179,7 +179,7 @@
   border-radius: 3px;
   min-width: 8em;
 }
-.delete:hover{
+.delete:hover, .delete:focus{
   color: #9aa3f7;
   background-color:white;
   border: 1px solid #9aa3f7;
@@ -267,7 +267,7 @@
   border: 1px solid #6571b7;
 
 }
-.button-form-submit:active{
+.button-form-submit:active, .button-form-submit:focus{
   color: #6571b7;
   background-color:white;
   border: 1px solid #6571b7;
@@ -285,7 +285,7 @@
   margin-top: 0.3rem;
 }
 /* clear interaction for edit button */
-.button-form-reset:hover{
+.button-form-reset:hover, .button-form-reset:focus{
   color: #6571b7;
   background-color: white;
   border: 1px solid #6571b7;

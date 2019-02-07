@@ -193,6 +193,12 @@
   font-size: 20px;
 }
 
+.checkout_btn {
+  display: block;
+  margin: auto;
+  padding: .5rem;
+}
+
 
 
 

@@ -117,3 +117,19 @@
   padding: .4rem;
   flex: 1;
 }
+/* styleguide link */
+.linked-text {
+  /* dark purple */
+  color:#730099;
+  /* double lines */
+  text-decoration:underline;
+}
+/* Clear interaction response for link */
+.linked-text:hover, .linked-text:active, .linked-text::after {
+  /* dark green */
+  color:black;
+  /* bright purple */
+  background-color: #ffe6ff;
+  padding-top:0;
+  text-decoration:underline;
+}

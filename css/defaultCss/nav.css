@@ -1,9 +1,8 @@
 .navContainer {
   display: flex;
   width: 100%;
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(250, 244, 244);
   margin-top: 1rem;
-
 }
 
 .active {
@@ -24,7 +23,7 @@
 /* Threshold for text being in one line*/
 @media screen and (min-width: 603px) {
   .nav_link > a:hover {
-    border-bottom: 4px dotted #9aa3f7
+    border-bottom: 4px dotted #9aa3f7;
   }
 }
 
@@ -55,11 +54,8 @@
 }
 
 .logo {
-  width: 70px;
+  width: 100px;
   display: block;
   margin: auto;
   margin-top: 1rem;
 }
-
-
-

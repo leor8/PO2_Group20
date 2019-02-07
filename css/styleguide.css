@@ -1,1 +1,174 @@
 
+* {
+  box-sizing: border-box;
+}
+/* body grid by using margin */
+body {
+  font-family: "Office Code Pro", monospace;
+  /* white space between two sides */
+  margin-left: 13%;
+  margin-right: 13%;
+  font-weight: lighter;
+  background-color: rgb(250, 244, 244);
+}
+
+/* div class for flex */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* div class for flex-half (rendered element and css selector + sample code) */
+.flex-half {
+  flex: 0 0 45%;
+  margin-right: 5%;
+}
+/* scroll to top button */
+/*Floating Back-To-Top Button*/
+  .topBtn{
+        position: fixed;
+        bottom: 20px;
+        float: right;
+        width: 100%;
+        left: 90%;
+        height: 80px;
+        overflow: auto;
+        display: block;
+        margin: auto;
+        background-image: url("../img/top.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+/*On Hover Color Change*/
+    .topBtn:hover {
+        background-image: url("../img/top_hover.png");
+    }
+
+    .topBtn:focus {
+        background-image: url("../img/top_focus.png");
+    }
+    @media screen and (max-width:800px) {
+      .topBtn {
+/* make it smaller */
+        height: 60px;
+      }
+    }
+    @media screen and (max-width:450px) {
+      .topBtn {
+/* make it smaller */
+        height: 50px;
+        left: 86%;
+      }
+    }
+/* section id style */
+#styleguide{
+  margin-top: 2rem;
+  background-color: white;
+  padding: 2rem;
+}
+
+/* hashtag id to make a line between each small flexbox */
+#navigation_button{
+  border-top: 2px solid #ffaec5;
+  padding-top:1rem;
+  border-top: 2px solid #ffaec5;
+  margin-bottom: 2rem;
+  margin-top:2rem;
+}
+
+#form_buttons,#shop_button,#input_field,
+#images_as_a_link,#heading-levels,#unordered_list,
+#colour_palette
+{
+  padding-top:1rem;
+  border-top: 1px solid grey;
+  margin-bottom: 2rem;
+  margin-top:2rem;
+}
+
+/* heading */
+.header-one{
+  color:white;
+  -webkit-text-stroke: 2px pink;
+  font-size: 3.5rem;
+  margin:0;
+  border:0;
+  text-align: center;
+}
+@media screen and (max-width:450px) {
+  .header-one{
+    font-size: 2.5rem;
+  }
+}
+.header-two{
+  text-decoration: underline;
+  font-family: Helvetica;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color:#9aa3f7;
+}
+
+.header-three{
+  font-family: Helvetica;
+}
+
+/* interactive element */
+/* Nav */
+.nav_item1 {
+  flex: 1;
+  text-align: left;
+}
+
+/* stylying for sample code */
+code {
+  /* highlight the code with background color */
+  /* light pink  */
+  background-color: #ffe6ff;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.9rem;
+  color:#08302f;
+}
+p{
+  font-size: 0.9rem;
+}
+/* make the email input smaller */
+@media screen and (max-width:450px) {
+  .email_input{
+    max-width: 200px;
+  }
+  #email {
+    max-width: 120px;
+
+  }
+}
+/* colour palette */
+.color-palette {
+  width: 150px;
+  height: 85px;
+  font-size: 0.8em;
+  padding: 0.5em;
+  margin: 0.1em 0.1em;
+  border:1px solid black;
+  display:inline-block;
+  justify-content: center;
+}
+
+/* colors in color palette */
+.pink_background{
+  background-color: rgb(250, 244, 244);
+}
+.purple_nav{
+  background-color: #9aa3f7;
+}
+.pink_icon{
+  background-color: #ffaec5;
+  color:white;
+}
+.highlight_pink{
+  background-color: #ffe6ff;
+  /* color:white; */
+}
+.yellow{
+  background-color: #eeff41;
+  /* color:white; */
+}

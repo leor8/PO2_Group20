@@ -1,0 +1,18 @@
+/* this is a citation style */
+#citations_list{
+  margin-top: 2rem;
+  background-color: white;
+  padding: 2rem;
+}
+.citations{
+  padding-top:1rem;
+  border-top: 1px solid grey;
+  margin-bottom: 2rem;
+  margin-top:2rem;
+}
+#image_source, #code_source{
+  padding-top:1rem;
+  border-top: 2px solid #ffaec5;
+  margin-bottom: 2rem;
+  margin-top:2rem;
+}

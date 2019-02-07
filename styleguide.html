@@ -1,0 +1,231 @@
+<!-- styleguide structure -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PopDesign - Styleguide</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico in the root directory -->
+  <!-- Required css for all pages -->
+  <link rel="stylesheet" href="css/defaultCss/normalize.css">
+  <link rel="stylesheet" href="css/defaultCss/nav.css">
+  <link rel="stylesheet" href="css/defaultCss/footer.css">
+  <!-- for button style in interactive element-->
+  <link rel="stylesheet" href="css/product.css">
+  <!-- for layout of styleguide.html  -->
+  <link rel="stylesheet" href="css/styleguide.css">
+
+</head>
+
+<body>
+  <!-- navigation bar for indicating to specific content or link to citation page -->
+  <header id="top">
+    <a href="home.html"><img src="img/logo.png" alt="company logo" class="logo"></a>
+  </header>
+  <nav class="navContainer">
+    <div class="nav_item nav_link">
+      <a href="home.html">Home</a>
+    </div>
+    <div class="nav_item nav_link">
+      <a href="citations.html">Citations</a>
+    </div>
+  </nav>
+  <!-- end with nav bar-->
+<!-- end of top section -->
+
+<a href="#top" class="topBtn"></a>
+  <section id="styleguide">
+    <h1 class="header-one">Styleguide</h1>
+    <!--  Navigation Button -->
+    <section id="navigation_button">
+      <h2 class="header-two">NAVIGATION BUTTON</h2>
+      <div class="flex">
+        <div class="flex-half">
+          <h3 class="header-three">Rendered Element:</h3>
+          <div class="nav_item1 nav_link"><a href="#">Nav Button</a></div>
+        </div>
+        <div class="flex-half">
+          <h3 class="header-three">CSS Selector:</h3>
+          <p>.nav_item nav_link</p>
+          <h3 class="header-three">Sample Code:</h3>
+          <code>&lt;div class="nav_item nav_link"&gt;&lt;a href="#"&gt;Nav Button&lt;/a&gt;&lt;/div&gt;</code>
+        </div>
+      </div>
+    </section>
+    <!--  end of Navigation Button section -->
+
+    <!-- Submit and Reset button -->
+    <section id="form_buttons">
+      <h2 class="header-two">Add to Cart Button</h2>
+      <div class="flex">
+        <div class="flex-half">
+          <h3 class="header-three">Rendered Element:</h3>
+          <button class="cart">Add to Cart</button>
+        </div>
+        <div class="flex-half">
+          <h3 class="header-three">CSS Selector:</h3>
+          <p>.cart</p>
+          <h3 class="header-three">Sample Code:</h3>
+          <code>&lt;button class="cart"&gt;Add to Cart&lt;/button&gt;</code>
+        </div>
+      </div>
+    </section>
+    <!--  end of Submit and Reset section -->
+
+    <!-- Add to Cart button -->
+    <section id="shop_button">
+      <h2 class="header-two">Add to Cart Button</h2>
+      <div class="flex">
+        <div class="flex-half">
+          <h3 class="header-three">Rendered Element:</h3>
+          <button class="cart">Add to Cart</button>
+        </div>
+        <div class="flex-half">
+          <h3 class="header-three">CSS Selector:</h3>
+          <p>.cart</p>
+          <h3 class="header-three">Sample Code:</h3>
+          <code>&lt;button class="cart"&gt;Add to Cart&lt;/button&gt;</code>
+        </div>
+      </div>
+    </section>
+    <!-- end of Add to Cart  section -->
+    <!-- Text Input section -->
+    <section id="input_field">
+      <h2 class="header-two">INPUT FIELDS IN FOOTER</h2>
+      <div class="flex">
+        <div class="flex-half">
+          <h3 class="header-three">Rendered Element:</h3>
+          <div class="email_input">
+            <input type="email" name="email" id="email" placeholder="your@email.com"> <input type="submit" name="submit" value="SUBSCRIBE" class="sub">
+          </div>
+        </div>
+        <div class="flex-half">
+          <h3 class="header-three">CSS Selector:</h3>
+          <p>.email_input</p>
+          <h3 class="header-three">Sample Code:</h3>
+          <code>&lt;input type="email" name="email" id="email" placeholder="your@email.com"&gt;</code>
+          <br>
+          <code>&lt;input type="submit" name="submit" value="SUBSCRIBE" class="sub"&gt;</code>
+        </div>
+      </div>
+    </section>
+    <!-- end of Text Input section -->
+
+    <!-- Image as a Link section-->
+    <section id="images_as_a_link">
+      <h2 class="header-two">IMAGES AS A LINK</h2>
+      <div class="flex">
+        <div class="flex-half">
+          <h3 class="header-three">Rendered Element:</h3>
+          <a href="product_detail.html" class="detail_img_link">
+            <div class="product_img_rad"></div>
+          </a>
+        </div>
+        <div class="flex-half">
+          <h3 class="header-three">CSS Selector:</h3>
+          <p>.product_img_rad</p>
+          <h3 class="header-three">Sample Code:</h3>
+          <code>&lt;a href="product_detail.html" class="detail_img_link"&gt;&lt;div class="product_img_rad"&gt;&lt;/div&gt;&lt;/a&gt;
+          </code>
+        </div>
+      </div>
+    </section>
+    <!-- end of Image as a Link section -->
+
+    <!-- 4 types of headings -->
+    <section id="heading-levels">
+      <h2 class="header-two">HEADING LEVELS</h2>
+      <div class="flex">
+        <div class="flex-half">
+          <h3 class="header-three">Rendered Element:</h3>
+          <h2 class="header-one">H1 level </h2>
+          <h3 class="header-two">This is an example of an H2 level header</h3>
+          <h4 class="header-three">This is an example of an H3 level header</h4>
+          <h5 class="header-four">This is an example of an H4 level header</h5>
+        </div>
+        <div class="flex-half">
+          <h3 class="header-three">CSS Selector:</h3>
+          <p>.header-one, .header-two, .header-three, .header-four</p>
+          <h3 class="header-three">Sample Code:</h3>
+          <code>&lt;h2 class="header-one"&gt;This is an example of an H1 header&lt;/h2&gt;</code>
+          <br>
+          <code>&lt;h3 class="header-two"&gt;This is an example of an H2 header&lt;/h3&gt;</code>
+          <br>
+          <code>&lt;h4 class="header-three"&gt;This is an example of an H3 header&lt;/h4&gt;</code>
+          <br>
+          <code>&lt;h5 class="header-four"&gt;This is an example of an H4 header&lt;/h5&gt;</code>
+
+        </div>
+      </div>
+    </section>
+    <!-- end of headings -->
+    <!-- unordered list -->
+    <section id="unordered_list">
+         <h2 class="header-two">UNORDERED LIST</h2>
+         <div class="flex">
+           <div class="flex-half">
+             <h3 class="header-three">Rendered Element:</h3>
+             <ol class="list-numbered">
+               <li>Unordered list 1</li>
+               <li>Unordered list 2</li>
+               <li>Unordered list 3</li>
+             </ol>
+           </div>
+           <div class="flex-half">
+             <h3 class="header-three">CSS Selector:</h3>
+             <p>.list-unordered</p>
+             <h3 class="header-three">Sample Code:</h3>
+             <code>&lt;ol class="list-unordered"&gt;&lt;li&gt;This is a list item inside an unordered list.&lt;/li&gt;&lt;/ol&gt;</code>
+           </div>
+         </div>
+       </section>
+       <!-- end of list -->
+    <!-- color palette -->
+    <section id="colour_palette">
+      <h2 class="header-two">SITE COLOUR PALETTE</h2>
+      <div class="flex">
+        <!-- light pink for site backgorund  -->
+        <div class="color-palette pink_background">
+          <div>Hex: #faf4f4</div>
+          <div>RGB:(250, 244, 244)</div>
+        </div>
+        <!-- end of  light pink for site backgorund -->
+
+        <!-- purple -->
+        <div class="color-palette purple_nav">
+          <div>Hex: #9aa3f7</div>
+          <div>RGB:(154, 163, 247)</div>
+        </div>
+        <!-- end of purple -->
+
+        <!--  pink_icon -->
+        <div class="color-palette pink_icon">
+          <div>Hex: #ffaec5</div>
+          <div>RGB:(255, 174, 197)</div>
+        </div>
+        <!-- end of pink_icon -->
+
+        <!-- fresh_green -->
+        <div class="color-palette highlight_pink">
+          <div>Hex: #ffe6ff</div>
+          <div>RGB:(255, 174, 197)</div>
+        </div>
+        <!-- end of fresh_green -->
+
+        <!-- green -->
+        <div class="color-palette green">
+          <div>Hex: #0e8044</div>
+          <div>RGB:(14,128,68)</div>
+        </div>
+        <!-- end of green -->
+        <p class="paragraph-text"></p>
+      </div>
+    </section>
+    <!-- end of color palette   -->
+  </section>
+  <!-- end of id="interactive_elements" section -->
+
+</body>
+</html>

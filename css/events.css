@@ -105,14 +105,19 @@
   /* Button styling design*/
   /* pink background and white text  */
   color: white;
-  background-color: #ffaec5;
-  border: 1px solid #ffaec5;
+  background-color: #b4bdf9;
+  border: 1px solid #b4bdf9;
   transition: background-color .5s, color .5s;
 }
 
-.headline_button:hover, .headline_button:focus {
+.headline_button:hover{
   /* pink border and white text */
+  background-color: #ffaec5;
+  border: 1px solid #ffaec5;
+  color: white;
+}
+.headline_button:focus{
   background-color: white;
   border: 1px solid #ffaec5;
-  color: #ffaec5;
+  color:#ffaec5;
 }

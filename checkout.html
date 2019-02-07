@@ -146,8 +146,43 @@
         <p class="summary_item_right total_text">CAD 52.78</p>
       </div>
 
-      <button class="checkout_btn">Checkout</button>
+      <form class="checkout_form">
+        <div>
+          <label for="fname">Name on card: </label>
+          <input type="text" name="name1" class ="text_input1" id ="fname">
+        </div>
+
+        <div>
+          <label for="bname">Credit card#: </label>
+          <input type="text" name="name1" class ="text_input1" id ="bname">
+        </div>
+
+        <div>
+          <label for="cname">Expired date: </label>
+          <input type="text" name="name1" class ="text_input1" id ="cname">
+        </div>
+
+
+        <label for="money">Delivery:</label>
+        <select id="money" name="money">
+          <option value="express">Express Delivery</option>
+          <option value="regular">Regular Delivery</option>
+          <option value="pickup">Pick up at Stores</option>
+        </select>
+
+        <div class="message">
+          <label for="subject">Comments for personalized cards:</label>
+          <div>
+            <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+          </div>
+        </div>
+        <input type="submit" class="button-form-submit">
+        <input type="reset" class="button-form-reset">
+      </form>
     </section>
+
+
+
   </main>
 
   <footer class="footer">

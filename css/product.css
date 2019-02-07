@@ -3,8 +3,9 @@
   display: flex;
   flex-wrap: wrap;
   margin-left: 3.6rem;
-  margin-right: 5rem;
-  margin-top: 4rem;
+  margin-right: 5rem ;
+  margin-top: 4rem ;
+  /* background-color: white; */
 }
 
 /* Each product aka flex item*/
@@ -57,6 +58,7 @@
 
   /*Removing bold from heading*/
   font-weight: normal;
+  color:#6571b7;
 }
 
 .product_detail {
@@ -94,8 +96,8 @@
   padding: .3rem .8rem;
   border-radius: 3px;
   /* bright pink */
-  border: 1px solid #ff336d;
-  color: #ff336d;
+  border: 1px solid #b4bdf9;
+  color: #b4bdf9;
   /*Removing outline when button is clicked*/
   outline: none;
 

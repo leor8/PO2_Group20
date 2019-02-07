@@ -55,12 +55,15 @@
   .item_title {
     display: block;
     margin: auto;
+    text-align: center;
   }
 
   .btns {
-    display: block;
+    display: inline;
+    padding-left: 2em;
     width: 140px;
-    margin: auto;
+    margin:auto;
+
   }
 
   .item_content {
@@ -124,14 +127,16 @@
   font-size: 1rem;
   margin-top: 1rem;
   color:#605c5d;
-  padding-bottom: .2rem;
-  border-bottom: 4px solid #605c5d;
+  padding-bottom: .1rem;
+  border-bottom: 2px solid #605c5d;
   width: 180px;
 }
 
 .item_info {
   margin-top: 1rem;
   margin-left: 1rem;
+  margin-bottom: 1rem;
+
 }
 
 .btns {
@@ -139,13 +144,14 @@
 }
 
 .edit {
-  padding: .5rem;
+  font-size: 15px;
   outline: none;
   color: white;
   background-color: #6571b7;
   border: 1px solid #6571b7;
   border-radius: 3px;
-
+  padding: .2rem;
+  min-width: 8em;
 }
 /* clear interaction for edit button */
 .edit:hover{
@@ -160,13 +166,14 @@
   border: 1px solid #9aa3f7;
 }
 .delete {
-  padding: .5rem;
+  font-size: 15px;
+  padding: .2rem;
   outline: none;
   color: #6571b7;
   background-color:white;
   border: 1px solid #6571b7;
   border-radius: 3px;
-
+  min-width: 8em;
 }
 .delete:hover{
   color: #9aa3f7;
@@ -185,7 +192,8 @@
   margin-left: 2rem;
   margin-top: 1rem;
   margin-bottom: 3rem;
-  font-size: 20px;
+  font-size: 25px;
+  color: #ffaec5;
 }
 
 .summary_container {

@@ -103,24 +103,16 @@
   right: 1rem;
 
   /* Button styling design*/
-  border: 1px solid red;
-  color: red;
+  /* pink background and white text  */
+  color: white;
+  background-color: #ffaec5;
+  border: 1px solid #ffaec5;
   transition: background-color .5s, color .5s;
 }
 
 .headline_button:hover, .headline_button:focus {
-  background-color: red;
-  color: white;
+  /* pink border and white text */
+  background-color: white;
+  border: 1px solid #ffaec5;
+  color: #ffaec5;
 }
-
-
-
-
-
-
-
-
-
-
-
-

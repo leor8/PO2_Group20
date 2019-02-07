@@ -93,8 +93,9 @@
 
   padding: .3rem .8rem;
   border-radius: 3px;
-  border: 1px solid red;
-  color: red;
+  /* bright pink */
+  border: 1px solid #ff336d;
+  color: #ff336d;
   /*Removing outline when button is clicked*/
   outline: none;
 
@@ -106,23 +107,13 @@
   margin-left: 3rem;
 }
 
-.cart:hover, .cart:active {
-  background-color: darkred;
+.cart:hover {
+  /* light pink */
+  border: 1px solid #ffaec5;
+  background-color: white;
+  color: #ffaec5;
+}
+.cart:active {
+  background-color: #ffaec5;
   color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

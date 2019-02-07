@@ -78,7 +78,7 @@ body {
 
 #form_buttons,#cart_button,#shop_button,#input_field,
 #images_as_a_link,#heading-levels,#unordered_list,
-#colour_palette
+#colour_palette,#submit_buttons
 {
   padding-top:1rem;
   border-top: 1px solid grey;

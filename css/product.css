@@ -107,6 +107,7 @@
   display: block;
   margin-top: 1rem;
   margin-left: 3rem;
+  background-color: white;
 }
 
 .cart:hover {

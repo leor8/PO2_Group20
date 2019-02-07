@@ -19,6 +19,7 @@
     height: 600px;
 
   }
+
 }
 
 /* When the screen is too small to fit in two columns*/
@@ -75,7 +76,7 @@
     margin-left: 0; /*Override default*/
     width: 100%;
     background-color: white;
-    height: 600px;
+    height: 650px;
   }
 
   .summary_heading {
@@ -210,12 +211,15 @@
   font-size: 14px;
   margin-left: 2rem;
   float: left;
+  font-family: Helvetica;
 }
 
 .summary_item_right {
   font-size: 14px;
   margin-right: 2rem;
   float: right;
+  font-family: Helvetica;
+
 }
 
 .summary_alert {
@@ -243,7 +247,7 @@
   margin-bottom: 5rem;
 }
 .button-form-submit{
-  font-size: 13px;
+  font-size: 14px;
   font-family: Helvetica;
   outline: none;
   color: white;
@@ -252,7 +256,9 @@
   border: 1px solid #9aa3f7;
   border-radius: 3px;
   padding: .15rem;
-  min-width: 4rem;
+  min-width: 5rem;
+  margin-top: 0.3rem;
+
 }
 /* clear interaction for edit button */
 .button-form-submit:hover{
@@ -267,7 +273,7 @@
   border: 1px solid #6571b7;
 }
 .button-form-reset{
-  font-size: 13px;
+  font-size: 14px;
   font-family: Helvetica;
   outline: none;
   color: #9aa3f7;
@@ -275,7 +281,8 @@
   border: 1px solid #9aa3f7;
   border-radius: 3px;
   padding: .15rem;
-  min-width: 4rem;
+  min-width: 5rem;
+  margin-top: 0.3rem;
 }
 /* clear interaction for edit button */
 .button-form-reset:hover{
@@ -286,6 +293,27 @@
 }
 .button-form-reset:active{
   color: white;
-  background-color:#6571b7;
+  background-color:#e6e6ff;
   border: 1px solid #6571b7;
+}
+
+/* name on card */
+.text_input1{
+  border: .5px solid #9999ff;
+  margin-bottom: 0.4rem;
+
+}
+.text_input1:hover{
+  border: .5px solid #9999ff;
+  background-color: #e6e6ff;
+
+}
+
+.text_input1:active{
+  border: .5px solid #9999ff;
+  background-color: #ffe6ee;
+
+}
+.payment_form{
+  font-family: Helvetica;
 }

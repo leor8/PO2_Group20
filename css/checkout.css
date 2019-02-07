@@ -9,6 +9,15 @@
     margin: 3rem 2rem 0 2rem;
 
     display: flex;
+
+  }
+
+  .cart_summary {
+    margin-left: 2rem;
+    flex: 1;
+    background-color: white;
+    height: 600px;
+
   }
 }
 
@@ -23,6 +32,8 @@
 
   .cart_summary {
     margin-top: 3rem;
+    background-color: white;
+    height: 800px;
   }
 
   .summary_heading {
@@ -58,8 +69,10 @@
 
   .cart_summary {
     margin-top: 3rem;
-    margin-left: 0 !important; /*Override default*/
+    margin-left: 0; /*Override default*/
     width: 100%;
+    background-color: white;
+    height: 600px;
   }
 
   .summary_heading {
@@ -73,12 +86,6 @@
   flex: 3;
   /*background-color: red;*/
   height: 400px;
-}
-
-.cart_summary {
-  margin-left: 2rem;
-  flex: 1;
-  background-color: white;
 }
 
 .cart_heading {
@@ -193,10 +200,10 @@
   font-size: 20px;
 }
 
-.checkout_btn {
-  display: block;
+.checkout_form {
   margin: auto;
-  padding: .5rem;
+  width: 200px;
+  margin-bottom: 5rem;
 }
 
 

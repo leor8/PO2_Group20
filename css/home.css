@@ -1,16 +1,102 @@
-.com_img {
-  margin: auto;
-  margin-top: 3rem;
-  background-color: black;
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-}
-
-.company_info {
-  width: 80%;
-  margin: auto;
+.first_section {
+  width: 100%;
+  height: 520px;
+  background-color: #f9e4e4;
   margin-top: 2rem;
-
-  /*margin-bottom: 5rem;*/
 }
+
+.main_title {
+  color: #ffaec5;
+  font-size: 40px;
+  text-align: center;
+
+  padding-top: 10rem;
+}
+
+.main_text {
+  font-size: 20px;
+  margin: auto;
+
+  padding-left: 6vw;
+  max-width: 70vw;
+  line-height: 1.6;
+}
+
+.shop_now {
+  background-color: #ffaec5;
+  padding: .6rem;
+  color: white;
+  border: none;
+  outline: none;
+
+  border-radius: 3px;
+
+  display: block;
+  margin-top: 3rem !important; /*Override*/
+  margin: auto;
+
+  transition: background-color .5s;
+}
+
+.shop_now:hover {
+  background-color: #b4bdf9;
+}
+
+
+.second_section {
+  width: 100%;
+  height: 580px;
+  background-color: white;
+}
+
+.brand_name {
+  color: #b4bdf9;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 10rem;
+  margin-bottom: 4rem;
+}
+
+.brand_text {
+  font-size: 20px;
+  margin: auto;
+
+  padding-left: 6vw;
+  max-width: 70vw;
+  line-height: 1.6;
+}
+
+/*Third section with image*/
+
+@media screen and (min-width: 916px) {
+/*  .home_img {
+    width: 100px;
+  }*/
+}
+.third_section {
+  margin-top: 2rem;
+  background-color: white;
+  display: flex;
+}
+
+.home_img {
+  flex: 1;
+  max-width: 500px;
+}
+
+.img_content {
+  flex: 1;
+}
+
+.img_content_text {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 8rem;
+}
+
+
+
+
+
+
+

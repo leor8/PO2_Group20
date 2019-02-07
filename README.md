@@ -2,15 +2,8 @@
 
 ## Introduction
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 PopDesign offers personalized, handmade paper greeting cards. these greeting cards are produced from recycled material and printed with a customized greeting message.
-=======
-PopDesign offers personalized, handmade 3D paper greeting cards. these greeting cards are produced from recycled material and printed with a customized greeting message.
->>>>>>> 93753817c7b7199885d4482102ad25dcc14b1294
-=======
-PopDesign offers personalized, handmade 3D paper greeting cards. these greeting cards are produced from recycled material and printed with a customized greeting message.
->>>>>>> 93753817c7b7199885d4482102ad25dcc14b1294
+
 
 ## Visit
 

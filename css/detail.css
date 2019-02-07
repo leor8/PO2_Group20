@@ -68,7 +68,11 @@
   padding: .3rem .8rem;
   border-radius: 3px;
   border: 1px solid red;
-  color: red;
+  /* bright pink */
+  border: 1px solid #b4bdf9;
+  color: #b4bdf9;
+  background-color: white;
+
   /*Removing outline when button is clicked*/
   outline: none;
 
@@ -78,9 +82,15 @@
   display: block;
   margin-top: 1rem;
 }
-
-.cart:hover, .cart:active {
-  background-color: darkred;
+/* clear interaction for add to cart button */
+.cart:hover {
+  /* light pink */
+  border: 1px solid #ffaec5;
+  background-color: white;
+  color: #ffaec5;
+}
+.cart:active {
+  background-color: #ffaec5;
   color: white;
 }
 
@@ -100,19 +110,3 @@
   padding-top: 1rem;
   margin: 0 2rem 0 2rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

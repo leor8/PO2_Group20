@@ -127,7 +127,9 @@ code {
   padding: 0.25rem 0.5rem;
   font-size: 0.9rem;
   color:#08302f;
-}
+  min-width:150px;
+  height:auto;
+  max-width: 100%;}
 p{
   font-size: 0.9rem;
 }

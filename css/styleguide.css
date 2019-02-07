@@ -76,7 +76,7 @@ body {
   margin-top:2rem;
 }
 
-#form_buttons,#cart_button,#shop_button,#input_field,
+#form_buttons,#cart_button,#shop_button,.input_field,
 #images_as_a_link,#heading-levels,#unordered_list,
 #colour_palette,#submit_buttons
 {

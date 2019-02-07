@@ -108,15 +108,32 @@
   text-align: center;
 }
 
-#email {
-  flex: 3;
-}
-
 .sub {
   font-size: .8rem;
-  padding: .4rem;
+  /* padding: .4rem; */
   flex: 1;
+  padding: 1px solid #9999ff;
+  margin-bottom: 0.4rem;
+
 }
+/* put email */
+#email{
+  flex: 3;
+  padding: 1px solid #9999ff;
+  margin-bottom: 0.4rem;
+}
+
+#email:hover{
+  padding: 1px solid #9999ff;
+  background-color: #e6e6ff;
+
+}
+
+#email:active{
+  border: 1px solid #9999ff;
+  background-color: #ffe6ee;
+}
+
 /* styleguide link */
 .linked-text {
   /* dark purple */

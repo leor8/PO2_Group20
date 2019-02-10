@@ -3,7 +3,7 @@
 
 /* Content space for events page*/
 
-@media screen and (min-width: 906px) {
+@media screen and (min-width: 806px) {
   /* The headline */
   .headline {
     height: 400px;
@@ -37,13 +37,15 @@
   }
 }
 
-@media screen and (max-width: 906px) {
+@media screen and (max-width: 806px) {
   .headline {
     margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
   }
 
   .headline_img {
-    display: block;
+    /*display: block;*/
 
     /*width: 650px;*/
     width: 80%;
@@ -77,6 +79,10 @@
 
     /*max-width: 400px;*/
   }
+
+  .headline_reverse {
+    order: -1;
+  }
 }
 
 .event_container {
@@ -89,8 +95,7 @@
   font-size: 1.5rem;
 
   /* Reseeting default font size for h1*/
-  margin-top: 2rem;
-  margin-left: 2.4rem;
+  text-align: center;
   color:#9aa3f7;
   font-style: italic;
 

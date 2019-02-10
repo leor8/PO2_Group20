@@ -11,6 +11,8 @@
 .nav_item {
   flex: 1;
   text-align: center;
+  display: inline-block;
+  margin: auto;
 }
 
 .nav_link > a {

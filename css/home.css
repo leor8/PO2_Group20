@@ -1,7 +1,10 @@
+
+/* First section of the home page*/
 .first_section {
   width: 100%;
   height: 480px;
   background-color: #f9e4e4;
+  /*Moving section away from nav*/
   margin-top: 2rem;
 }
 
@@ -16,7 +19,7 @@
 .main_text {
   font-size: 20px;
   margin: auto;
-  padding-left: 6vw;
+  padding-left: 10vw;
   max-width: 70vw;
   line-height: 1.6;
 }
@@ -46,7 +49,7 @@
 
 .second_section {
   width: 100%;
-  height: 540px;
+  height: 560px;
   background-color: white;
 }
 
@@ -68,38 +71,106 @@
   font-size: 20px;
   margin: auto;
 
-  padding-left: 6vw;
+  padding-left: 10vw;
   max-width: 70vw;
   line-height: 1.6;
 }
 
 /*Third section with image*/
 
-@media screen and (max-width: 916px) {
+/*@media screen and (max-width: 700px) {
   .home_img {
-    /*width: 100px;*/
-    display: none;
+    display: block;
+    width: 520px;
   }
 }
-.third_section {
-  margin-top: 2rem;
-  background-color: white;
-  display: flex;
-}
-
 .home_img {
   flex: 1;
-  max-width: 500px;
+  max-width: 400px;
 }
 
 .img_content {
-  flex: 1;
+  flex: 2;
 }
 
 .img_content_text {
-  max-width: 400px;
+  max-width: 30vw;
   margin: auto;
-  margin-top: 8rem;
+  margin-top: 8%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}*/
+
+
+
+
+/* Testings*/
+
+@media screen and (min-width: 906px) {
+  .third_section {
+    height: 400px;
+    display: flex;
+    margin-top: 2rem;
+    background-color: white;
+    margin-bottom: 2rem;
+
+  }
+
+  .home_img {
+    display: block;
+    flex: 3;
+
+    max-width: 550px;
+
+  }
+
+  .img_content {
+    height: 400px;
+    flex: 1;
+
+    /* for button responsiveness*/
+    position: relative;
+  }
+
+  .img_content_text {
+    position: absolute;
+    top: 33%;
+    left: 30%;
+    right: 30%;
+
+    max-width: 400px;
+    min-width: 200px;
+  }
+}
+
+@media screen and (max-width: 906px) {
+  .third_section {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home_img {
+    width: 100%;
+    height: 50vw;
+    margin: auto;
+  }
+
+  .img_content {
+    height: 300px;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    /* for button responsiveness*/
+    position: relative;
+  }
+
+  .img_content_text {
+    margin: calc(22% - 8vw) 2rem 0 2rem;
+
+    /*max-width: 400px;*/
+  }
 }
 
 

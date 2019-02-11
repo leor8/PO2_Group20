@@ -105,6 +105,50 @@
           <div class="item_info">
             <p><strong>Price:</strong> $23.99</p>
             <p><strong>Quantity:</strong> 1</p>
+            <p><strong>Color(s):</strong> Red/Blue/Purple </p>
+            <p><strong>Notes:</strong> None </p>
+          </div>
+
+          <div class="btns">
+            <button class="edit">Edit</button>
+            <button class="delete">Delete</button>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="cart_item">
+        <!-- first flex item -->
+        <img src="img/kidcard.png" alt="card image" class="item_img">
+
+        <!-- Second flex item -->
+        <div class="item_content">
+          <h2 class="item_title">Kids Card Collection</h2>
+          <div class="item_info">
+            <p><strong>Price:</strong> $23.99</p>
+            <p><strong>Quantity:</strong> 1</p>
+            <p><strong>Color(s):</strong> Red/Blue/Purple </p>
+            <p><strong>Notes:</strong> None </p>
+          </div>
+
+          <div class="btns">
+            <button class="edit">Edit</button>
+            <button class="delete">Delete</button>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="cart_item">
+        <!-- first flex item -->
+        <img src="img/kidcard.png" alt="card image" class="item_img">
+
+        <!-- Second flex item -->
+        <div class="item_content">
+          <h2 class="item_title">Kids Card Collection</h2>
+          <div class="item_info">
+            <p><strong>Price:</strong> $23.99</p>
+            <p><strong>Quantity:</strong> 1</p>
             <p><strong>Color(s):</strong> Yellow/Green/Purple </p>
             <p><strong>Notes:</strong> None </p>
           </div>
@@ -146,37 +190,55 @@
       </div>
 
       <form class="checkout_form">
+        <h3 class="form_title"> Billing Details </h3>
         <div>
-          <label for="fname">Name on card: </label>
-          <input type="text" name="name1" class ="text_input1" id ="fname">
+          <label for="cardName">First & Last Name</label>
+          <input type="text" name="cardName" class ="text_input1" id ="cardName">
         </div>
 
         <div>
-          <label for="bname">Credit card#: </label>
+          <label for="clientEmail">Email Address </label>
+          <input type="email" name="clientEmail" class ="text_input1" id ="clientEmail">
+        </div>
+
+        <div>
+          <label for="clientCountry">Country</label>
+          <select class="input_select">
+            <option disabled selected value> -- select an option -- </option>
+            <option value="CA">Canada</option>
+            <option value="US">USA</option>
+            <option disabled>-------</option>
+            <option value="MX">Mexico</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="clientProv">State/Province </label>
+          <input type="text" name="clientProv" class ="text_input1" id ="clientProv">
+        </div>
+
+        <div>
+          <label for="clientPost">Zip/Postal Code </label>
+          <input type="text" name="clientPost" class ="text_input1" id ="clientPost">
+        </div>
+
+        <h3 class="form_title"> Payment method </h3>
+        <div>
+          <label for="bname">Card Number </label>
           <input type="text" name="name1" class ="text_input1" id ="bname">
         </div>
 
         <div>
-          <label for="cname">Expired date: </label>
+          <label for="cname">Expired date </label>
+          <input type="text" name="name1" class ="text_input1" id ="cname" placeholder="MM/YYYY">
+        </div>
+
+        <div>
+          <label for="cname">Security Code</label>
           <input type="text" name="name1" class ="text_input1" id ="cname">
         </div>
 
-
-        <label for="money">Delivery:</label>
-        <select id="money" name="money">
-          <option value="express">Express Delivery</option>
-          <option value="regular">Regular Delivery</option>
-          <option value="pickup">Pick up at Stores</option>
-        </select>
-
-        <div class="message">
-          <label for="subject">Comments for personalized cards:</label>
-          <div>
-            <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
-          </div>
-        </div>
-        <input type="submit" class="button-form-submit">
-        <input type="reset" class="button-form-reset">
+        <input type="submit" class="button-form-submit" value="Place Your Order!">
       </form>
     </section>
 

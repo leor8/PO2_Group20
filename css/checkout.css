@@ -1,12 +1,12 @@
 
 /* When the screen is too small to fit in two columns*/
-@media screen and (min-width: 959px) {
+@media screen and (min-width: 1043px) {
   .checkout_container {
     /*background-color: white;*/
     width: calc(100% - 4rem);
 
     height: 400px;
-    margin: 3rem 2rem 0 2rem;
+    margin: 3rem 2rem 40rem 2rem;
 
     display: flex;
 
@@ -16,14 +16,32 @@
     margin-left: 2rem;
     flex: 1;
     background-color: white;
-    height: 600px;
+    height: 1000px;
+    margin-bottom: 10rem:
+  }
 
+  .checkout_form {
+    padding-top: 3rem;
+    margin: auto;
+    width: 200px;
+    margin-bottom: 5rem;
+  }
+
+  .text_input1{
+    border: .5px solid #9999ff;
+    border-radius: 5px;
+    margin-top: .3rem;
+    margin-bottom: 0.4rem;
+    height: 24px;
+    max-width: 200px;
+    padding: .2rem;
+    padding-left: .6rem;
   }
 
 }
 
 /* When the screen is too small to fit in two columns*/
-@media screen and (max-width: 958px) {
+@media screen and (max-width: 1042px) {
   .checkout_container {
     /*background-color: white;*/
     width: calc(100% - 4rem);
@@ -34,17 +52,42 @@
   .cart_summary {
     margin-top: 3rem;
     background-color: white;
-    height: 800px;
+    height: 1450px;
   }
 
   .summary_heading {
-    padding-top: 10rem;
+    padding-top: 30rem;
   }
 
+  .checkout_form {
+    padding-top: 3rem;
+    width: 92%;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+  }
+
+  .text_input1 {
+    display: block;
+    border: .5px solid #9999ff;
+    border-radius: 5px;
+    margin-top: .3rem;
+    margin-bottom: 0.4rem;
+    height: 24px;
+    width: 100%;
+    padding: .2rem;
+    padding-left: .6rem;
+  }
 }
 
 /* When the image of items are too big to be stored*/
 @media screen and (max-width: 600px) {
+  .checkout_container {
+    /*background-color: white;*/
+    width: calc(100% - 4rem);
+    margin: 3rem 2rem 24rem 2rem;
+
+  }
+
   .cart_items {
     margin-left: -2rem;
   }
@@ -76,11 +119,49 @@
     margin-left: 0; /*Override default*/
     width: 100%;
     background-color: white;
-    height: 650px;
+    height: 1450px;
   }
 
   .summary_heading {
+    padding-top: 30rem;
+  }
+
+  .checkout_form {
     padding-top: 3rem;
+    width: 90%;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+  }
+
+  .text_input1 {
+    display: block;
+    border: .5px solid #9999ff;
+    border-radius: 5px;
+    margin-top: .3rem;
+    margin-bottom: 0.4rem;
+    height: 24px;
+    max-width: 600px;
+    padding: .2rem;
+    padding-left: .6rem;
+  }
+
+  .checkout_form {
+    padding-top: 3rem;
+    width: 92%;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+  }
+
+  .text_input1 {
+    display: block;
+    border: .5px solid #9999ff;
+    border-radius: 5px;
+    margin-top: .3rem;
+    margin-bottom: 0.4rem;
+    height: 24px;
+    width: 88%;
+    padding: .2rem;
+    padding-left: .6rem;
   }
 
 }
@@ -241,11 +322,25 @@
   font-size: 20px;
 }
 
-.checkout_form {
-  margin: auto;
-  width: 200px;
-  margin-bottom: 5rem;
+/* The secion below is for all the billing details form*/
+
+.form_title {
+  /* Pushing back the title*/
+  margin-left: -.8vw;
+  margin-bottom: 1rem;
 }
+
+/* Leaving out space between each form item */
+form > div {
+  margin-bottom: .6rem;
+}
+
+.input_select {
+  display: block;
+  margin-top: 0.3rem;
+  width: 200px;
+}
+
 .button-form-submit{
   font-size: 14px;
   font-family: Helvetica;
@@ -254,17 +349,18 @@
   /* purple */
   background-color: #9aa3f7;
   border: 1px solid #9aa3f7;
-  border-radius: 3px;
-  padding: .15rem;
-  min-width: 5rem;
-  margin-top: 0.3rem;
 
+  border-radius: 3px;
+  padding: .3rem;
+  min-width: 5rem;
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
 }
 /* clear interaction for edit button */
 .button-form-submit:hover{
   color: white;
   background-color: #6571b7;
-  border: 1px solid #6571b7;
 
 }
 .button-form-submit:active, .button-form-submit:focus{
@@ -272,37 +368,9 @@
   background-color:white;
   border: 1px solid #6571b7;
 }
-.button-form-reset{
-  font-size: 14px;
-  font-family: Helvetica;
-  outline: none;
-  color: #9aa3f7;
-  background-color: white;
-  border: 1px solid #9aa3f7;
-  border-radius: 3px;
-  padding: .15rem;
-  min-width: 5rem;
-  margin-top: 0.3rem;
-}
-/* clear interaction for edit button */
-.button-form-reset:hover, .button-form-reset:focus{
-  color: #6571b7;
-  background-color: white;
-  border: 1px solid #6571b7;
-
-}
-.button-form-reset:active{
-  color: white;
-  background-color:#6571b7;
-  border: 1px solid #6571b7;
-}
 
 /* name on card */
-.text_input1{
-  border: .5px solid #9999ff;
-  margin-bottom: 0.4rem;
 
-}
 .text_input1:hover{
   border: .5px solid #9999ff;
   background-color: #e6e6ff;

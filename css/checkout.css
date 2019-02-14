@@ -51,12 +51,14 @@
 
   .cart_summary {
     margin-top: 3rem;
+    max-width: 913px;
     background-color: white;
     height: 1450px;
+    margin-left: 2rem;
   }
 
   .summary_heading {
-    padding-top: 30rem;
+    padding-top: 2rem;
   }
 
   .checkout_form {
@@ -123,7 +125,7 @@
   }
 
   .summary_heading {
-    padding-top: 30rem;
+    padding-top: 2rem;
   }
 
   .checkout_form {
@@ -170,7 +172,7 @@
 .cart_items {
   flex: 3;
   /*background-color: red;*/
-  height: 400px;
+  height: 804px;
 }
 
 .cart_heading {
@@ -199,7 +201,7 @@
 }
 
 .item_content {
-  flex: 3;
+  flex: 4;
   display: block;
   height: auto;
   width: 400px;

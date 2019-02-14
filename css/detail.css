@@ -38,13 +38,15 @@
   max-width: 230px;
 }
 
-.fa-star {
+.fa-star, .fa-star-half-alt {
   /* Changing default size of icon */
   font-size: 12px;
 
   /* Making stars closer to each other*/
   margin-left: -0.4rem;
   color: yellow;
+  text-shadow: 0 0 3px #000;
+
 }
 
 .ratings {

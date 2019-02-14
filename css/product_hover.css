@@ -40,7 +40,7 @@
 }
 
 .product_img_list2:hover, .product_img_list2:focus{
-  background-image: url("../img/product/list2/heart card-1.jpeg");
+  background-image: url("../img/product/list2/heart card-2.jpeg");
 }
 /* end of image2 */
 
@@ -62,7 +62,7 @@
 }
 
 .product_img_list3:hover, .product_img_list3:focus{
-  background-image: url("../img/product/list3/shark-1.jpg");
+  background-image: url("../img/product/list3/shark-2.jpg");
 }
 /* end of iamge3 */
 
@@ -142,7 +142,7 @@
   margin: auto;
 
   /*Making sure image only being rendered once and adding hover animation to change colour*/
-  background-image: url("../img/product/list7/school_bus-1.jpg");
+  background-image: url("../img/product/list7/school_bus-2.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 
@@ -150,12 +150,12 @@
 }
 
 .product_img_list7:hover, .product_img_list7:focus{
-  background-image: url("../img/product/list7/school_bus-2.jpg");
+  background-image: url("../img/product/list7/school_bus-1.jpg");
 }
 /* end of image 7 */
 
 /* image 8 */
-.product_img_list8{
+.product_img_list8 {
   height: 300px;
   width: 250px;
   margin-left: 1rem;

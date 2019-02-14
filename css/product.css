@@ -72,10 +72,15 @@
   display: inline-block;
 }
 
-.fa-star {
+.fa-star, .fa-star-half-alt {
   /*Changing colours of fontawesome start icon and make them tighter*/
   color:  rgb(255,255,0);
   margin-left: -.5rem;
+  text-shadow: 0 0 3px #000;
+}
+
+.no_fill {
+  color: lightgray;
 }
 
 .cart {

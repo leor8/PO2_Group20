@@ -32,7 +32,7 @@
   margin: auto;
 
   /*Making sure image only being rendered once and adding hover animation to change colour*/
-  background-image: url("../img/product/list2/bear-1.jpg");
+  background-image: url("../img/product/list2/ship-1.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 
@@ -40,7 +40,7 @@
 }
 
 .product_img_list2:hover, .product_img_list2:focus{
-  background-image: url("../img/product/list2/bear-2.jpg");
+  background-image: url("../img/product/list2/ship-2.jpg");
 }
 /* end of image2 */
 
@@ -98,7 +98,7 @@
   margin: auto;
 
   /*Making sure image only being rendered once and adding hover animation to change colour*/
-  background-image: url("../img/product/list5/ship-1.jpg");
+  background-image: url("../img/product/list5/bear-1.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 
@@ -106,7 +106,7 @@
 }
 
 .product_img_list5:hover, .product_img_list5:focus{
-  background-image: url("../img/product/list5/ship-2.jpg");
+  background-image: url("../img/product/list5/bear-2.jpg");
 }
 /* end of image 5 */
 

@@ -1,5 +1,29 @@
+/* product image start from left corner */
+
+/* image 1*/
+.product_img_list1{
+  height: 300px;
+  width: 250px;
+  margin-left: 1rem;
+  overflow: auto;
+  display: block;
+  margin: auto;
+
+  /*Making sure image only being rendered once and adding hover animation to change colour*/
+  background-image: url("../img/product/list1/happy bird-day-1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  /*transition: background-image .1s;*/
+}
+
+.product_img_list1:hover, .product_img_list1:focus{
+  background-image: url("../img/product/list1/happy bird-day-2.jpg");
+}
+/* end of image 1 */
+
 /* image 2: bird-ay */
-.product_img_birdy{
+.product_img_list2{
   height: 300px;
   width: 250px;
   margin-left: 1rem;
@@ -8,18 +32,20 @@
   margin: auto;
 
   /*Making sure image only being rendered once and adding hover animation to change colour*/
-  background-image: url("../img/product/happy bird-day-1.jpg");
+  background-image: url("../img/product/list2/heart card-1.jpeg");
   background-repeat: no-repeat;
   background-size: contain;
 
   /*transition: background-image .1s;*/
 }
 
-.product_img_birdy:hover, .product_img_birdy:focus{
-  background-image: url("../img/product/happy bird-day-2.jpg");
+.product_img_list2:hover, .product_img_list2:focus{
+  background-image: url("../img/product/list2/heart card-1.jpeg");
 }
+/* end of image2 */
+
 /* image 3:  */
-.product_img_parrotcard{
+.product_img_list3{
   height: 300px;
   width: 250px;
   margin-left: 1rem;
@@ -28,18 +54,20 @@
   margin: auto;
 
   /*Making sure image only being rendered once and adding hover animation to change colour*/
-  background-image: url("../img/product/parrot-1.jpg");
+  background-image: url("../img/product/list3/shark-1.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 
   /*transition: background-image .1s;*/
 }
 
-.product_img_parrotcard:hover, .product_img_parrotcard:focus{
-  background-image: url("../img/product/parrot-2.jpg");
+.product_img_list3:hover, .product_img_list3:focus{
+  background-image: url("../img/product/list3/shark-1.jpg");
 }
+/* end of iamge3 */
+
 /* image 4 */
-.product_img_yellowflower{
+.product_img_list4{
   height: 300px;
   width: 250px;
   margin-left: 1rem;
@@ -48,13 +76,106 @@
   margin: auto;
 
   /*Making sure image only being rendered once and adding hover animation to change colour*/
-  background-image: url("../img/product/yellow flower-1.jpg");
+  background-image: url("../img/product/list4/yellow flower-1.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 
   /*transition: background-image .1s;*/
 }
 
-.product_img_yellowflower:hover, .product_img_yellowflower:focus{
-  background-image: url("../img/product/yellow flower-2.jpg");
+.product_img_list4:hover, .product_img_list4:focus{
+  background-image: url("../img/product/list4/yellow flower-2.jpg");
 }
+/* end of image 4 */
+
+/* image 5 */
+.product_img_list5{
+  height: 300px;
+  width: 250px;
+  margin-left: 1rem;
+  overflow: auto;
+  display: block;
+  margin: auto;
+
+  /*Making sure image only being rendered once and adding hover animation to change colour*/
+  background-image: url("../img/product/list5/ship-1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  /*transition: background-image .1s;*/
+}
+
+.product_img_list5:hover, .product_img_list5:focus{
+  background-image: url("../img/product/list5/ship-2.jpg");
+}
+/* end of image 5 */
+
+/* image 6 */
+.product_img_list6{
+  height: 300px;
+  width: 250px;
+  margin-left: 1rem;
+  overflow: auto;
+  display: block;
+  margin: auto;
+
+  /*Making sure image only being rendered once and adding hover animation to change colour*/
+  background-image: url("../img/product/list6/parrot-1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  /*transition: background-image .1s;*/
+}
+
+.product_img_list6:hover, .product_img_list6:focus{
+  background-image: url("../img/product/list6/parrot-2.jpg");
+}
+/* end of image 6 */
+
+/* image 7 */
+.product_img_list7{
+  height: 300px;
+  width: 250px;
+  margin-left: 1rem;
+  overflow: auto;
+  display: block;
+  margin: auto;
+
+  /*Making sure image only being rendered once and adding hover animation to change colour*/
+  background-image: url("../img/product/list7/school_bus-1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  /*transition: background-image .1s;*/
+}
+
+.product_img_list7:hover, .product_img_list7:focus{
+  background-image: url("../img/product/list7/school_bus-2.jpg");
+}
+/* end of image 7 */
+
+/* image 8 */
+.product_img_list8{
+  height: 300px;
+  width: 250px;
+  margin-left: 1rem;
+  overflow: auto;
+  display: block;
+  margin: auto;
+
+  /*Making sure image only being rendered once and adding hover animation to change colour*/
+  /* background-image: url("../img/product/list8/duck-1.jpg"); */
+  background-image: url("../img/product/list7/school_bus-1.jpg");
+
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  /*transition: background-image .1s;*/
+}
+
+.product_img_list8:hover, .product_img_list8:focus{
+  /* background-image: url("../img/product/list8/duck-2.jpg"); */
+  background-image: url("../img/product/list8/arch card-2.jpg");
+
+}
+/* end of image 8 */

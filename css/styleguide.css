@@ -35,17 +35,17 @@ body {
         overflow: auto;
         display: block;
         margin: auto;
-        background-image: url("../img/top.png");
+        background-image: url("../img/scroll_to_top/top.png");
         background-repeat: no-repeat;
         background-size: contain;
     }
 /*On Hover Color Change*/
     .topBtn:hover {
-        background-image: url("../img/top_hover.png");
+        background-image: url("../img/scroll_to_top/top_hover.png");
     }
 
     .topBtn:focus {
-        background-image: url("../img/top_focus.png");
+        background-image: url("../img/scroll_to_top/top_focus.png");
     }
     @media screen and (max-width:800px) {
       .topBtn {

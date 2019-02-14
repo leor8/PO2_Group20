@@ -155,7 +155,7 @@
 /* end of image 7 */
 
 /* image 8 */
-.product_img_list8{
+.product_img_list8 {
   height: 300px;
   width: 250px;
   margin-left: 1rem;
@@ -164,8 +164,8 @@
   margin: auto;
 
   /*Making sure image only being rendered once and adding hover animation to change colour*/
-  /* background-image: url("../img/product/list8/duck-1.jpg"); */
-  background-image: url("../img/product/list7/school_bus-1.jpg");
+   background-image: url("../img/product/list8/duck-1.jpg");
+  /*background-image: url("../img/product/list7/school_bus-1.jpg");*/
 
   background-repeat: no-repeat;
   background-size: contain;
@@ -175,7 +175,7 @@
 
 .product_img_list8:hover, .product_img_list8:focus{
   /* background-image: url("../img/product/list8/duck-2.jpg"); */
-  background-image: url("../img/product/list8/arch card-2.jpg");
+  background-image: url("../img/product/list8/duck-2.jpg");
 
 }
 /* end of image 8 */

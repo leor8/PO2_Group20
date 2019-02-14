@@ -3,14 +3,10 @@
     <head>
         <meta charset="utf-8">
 
-
         <title>PopDesign</title>
-        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="icon" href="img/logo.png">
-        <!-- Place favicon.ico in the root directory -->
-
         <!-- Required css for all pages -->
         <link rel="stylesheet" href="css/defaultCss/normalize.css">
         <link rel="stylesheet" href="css/defaultCss/main.css">
@@ -20,17 +16,7 @@
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-        <!-- Page specific css -->
-        <link rel="stylesheet" href="css/events.css">
-
-        <!-- JQuery CDN -->
-        <script
-        src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-        crossorigin="anonymous"></script>
-
-        <!-- Main Index JavaScript -->
-        <script src="script/index.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/detail.css">
     </head>
 
     <body>
@@ -67,37 +53,44 @@
 
       </nav>
 
-      <main class="event_container">
-        <section class="headline">
-          <img src="img/event/parrot-cover.jpg" alt="A Card" class="headline_img">
+      <main class="product_detail">
+        <!-- Product image -->
+        <div class="product_image_container">
+          <img src="img/product/list6/parrot-1.jpg" alt="product image" class="product_image">
+        </div>
 
-          <div class="headline_content">
-            <h1 class="headline_title">New Deisgn</h1>
-            <p class="headline_text"> Happy Valentines day !! Pick up your favorite enticing Pop up Greeting Cards to your loved ones they will never forget. </p>
-            <a href="product_listing.html" class="headline_button">Shop Now</a>
-          </div>
-        </section>
+        <!-- Product rating and price -->
+        <div class="product_info">
+          <h1 class="product_name"> Parrot Love</h1>
+          <section class="price_rating">
+            <p class="product_price">$5.99</p>
+            <div class="ratings">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <i class="fas fa-star no_fill"></i>
+              <i class="fas fa-star no_fill"></i>
+              <p class="rating_count">(220)</p>
+            </div>
+          </section>
 
-        <section class="headline">
+          <button class="cart">Add to Cart</button>
 
-          <div class="headline_content">
-            <h1 class="headline_title">DIY Workshop</h1>
-            <p class="headline_text"> Whether you want to send birthday wishes, congratulate someone on the promotion or want to express your love to someone, come to join our workop to produce a spetacular greeting card.</p>
-            <a href="#" class="headline_button">Sign Up</a>
-          </div>
+          <section class="product_description">
+            <p class="description_text">Everyone loves them! Winnie the Pooh, Baloo, Boo Boo, Yogi, Po... let’s face it, bears have all the fun! The Party Bear 3D pop-up card has a striking yellow cover featuring a friendly huggable bear in full party mode! On the inside, he truly comes to life with a burst of colourful balloons and a gift. And looks who wants to get in on the action- a little birdie with a party hat!</p>
+          </section>
+        </div>
 
-          <img src="img/event/purple.jpeg" alt="A Card" class="headline_img headline_reverse">
-        </section>
       </main>
 
       <footer class="footer">
         <section class="footer_item">
           <h2 class="footer_heading"> ABOUT </h2>
           <p class="footer_company">
-            We offer personalized handmade greeting cards.
+            something about company company about company about
             <a href="styleguide.html" class="linked-text">styleguide</a>
+            of this site.
             <a href="citations.html" class="linked-text">citations</a>
-            <a href="https://github.com/leor8/PO2_Group20" class="linked-text">github</a>
           </p>
         </section>
         <section class="footer_item">
@@ -132,6 +125,5 @@
         </section>
 
       </footer>
-
     </body>
 </html>

@@ -19,3 +19,22 @@
   background-image: url("../img/product/happy bird-day-2.jpg");
 }
 /* image 3:  */
+.product_img_parrotcard{
+  height: 300px;
+  width: 250px;
+  margin-left: 1rem;
+  overflow: auto;
+  display: block;
+  margin: auto;
+
+  /*Making sure image only being rendered once and adding hover animation to change colour*/
+  background-image: url("../img/product/parrot-1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  /*transition: background-image .1s;*/
+}
+
+.product_img_parrotcard:hover, .product_img_parrotcard:focus{
+  background-image: url("../img/product/parrot-2.jpg");
+}

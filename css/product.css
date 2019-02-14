@@ -37,7 +37,8 @@
   /*display: inline-block;*/
   width: 250px;
 }
-
+/* product image start from left corner */
+/* image 1: rad dad */
 .product_img_rad {
   height: 300px;
   width: 250px;
@@ -56,6 +57,26 @@
 
 .product_img_rad:hover, .product_img_rad:focus{
   background-image: url("../img/thankyou_card.png");
+}
+/* image 2: bird-ay */
+.product_img_birdy{
+  height: 300px;
+  width: 250px;
+  margin-left: 1rem;
+  overflow: auto;
+  display: block;
+  margin: auto;
+
+  /*Making sure image only being rendered once and adding hover animation to change colour*/
+  background-image: url("../img/product/happy bird-day-1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  /*transition: background-image .1s;*/
+}
+
+.product_img_birdy:hover, .product_img_birdy:focus{
+  background-image: url("../img/product/happy bird-day-2.jpg");
 }
 
 

@@ -9,7 +9,7 @@
   }
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 709px) {
   .product_info {
     margin-bottom: 2rem;
     margin-left: 2rem;
@@ -47,6 +47,10 @@
   color: yellow;
   text-shadow: 0 0 3px #000;
 
+}
+
+.no_fill {
+  color: lightgray;
 }
 
 .ratings {
@@ -102,10 +106,8 @@
 
   display: block;
   width: calc(100% - 3rem);
-  height: 250px;
+  height: 390px;
   margin-top: 3rem;
-
-
 }
 
 .description_text {

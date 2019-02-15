@@ -9,18 +9,21 @@
   /* background-color: white; */
 }
 
-/* Code modified from https://stackoverflow.com/questions/18744164/flex-box-align-last-row-to-grid */
-.product_listings::after{
-  content: '';
-  width: 29vw;
-}
+ /*Code modified from https://stackoverflow.com/questions/18744164/flex-box-align-last-row-to-grid*/
+ @media screen and (min-width: 1098px) {
+  .product_listings::after{
+    content: '';
+    width: 29vw;
+  }
+ }
+
 
 /* Each product aka flex item*/
 .product {
   flex: 1 0 30%;
   margin: auto;
   /*padding-right: 2rem;*/
-  margin-left: 2rem;
+  margin-left: 1rem;
   margin-bottom: 3rem;
 
   /*max-width: 220px;*/

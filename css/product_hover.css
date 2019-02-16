@@ -75,52 +75,27 @@
 .parrot:hover, .parrot:focus{
   background-image: url("../img/product/parrot/parrot-2.jpg");
 }
-/* end of image 6 */
+/* end of image 6: product_img parrot */
 
-/* image 7 */
+/* image 7: product_img schoolbus */
 .schoolbus{
-  height: 300px;
-  width: 250px;
-  margin-left: 1rem;
-  overflow: auto;
-  display: block;
-  margin: auto;
-
   /*Making sure image only being rendered once and adding hover animation to change colour*/
   background-image: url("../img/product/school_bus/school_bus-2.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  /*transition: background-image .1s;*/
 }
 
 .schoolbus:hover, .schoolbus:focus{
   background-image: url("../img/product/school_bus/school_bus-1.jpg");
 }
-/* end of image 7 */
+/* end of image 7: product_img schoolbus */
 
-/* image 8 */
-.product_img_list8 {
-  height: 300px;
-  width: 250px;
-  margin-left: 1rem;
-  overflow: auto;
-  display: block;
-  margin: auto;
-
+/* image 8:product_img duck */
+.duck {
   /*Making sure image only being rendered once and adding hover animation to change colour*/
-  background-image: url("../img/product/list8/duck-1.jpg");
-  /* background-image: url("../img/product/list7/school_bus-1.jpg"); */
-
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  /*transition: background-image .1s;*/
+  background-image: url("../img/product/duck/duck-1.jpg");
 }
 
-.product_img_list8:hover, .product_img_list8:focus{
-  background-image: url("../img/product/list8/duck-2.jpg");
+.duck:hover, .duck:focus{
+  background-image: url("../img/product/duck/duck-2.jpg");
   /* background-image: url("../img/product/list8/arch card-2.jpg"); */
-
 }
-/* end of image 8 */
+/* end of iamge 8: product_img duck */

@@ -78,7 +78,7 @@
 /* end of image 6 */
 
 /* image 7 */
-.product_img_list7{
+.schoolbus{
   height: 300px;
   width: 250px;
   margin-left: 1rem;
@@ -87,15 +87,15 @@
   margin: auto;
 
   /*Making sure image only being rendered once and adding hover animation to change colour*/
-  background-image: url("../img/product/list7/school_bus-2.jpg");
+  background-image: url("../img/product/school_bus/school_bus-2.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 
   /*transition: background-image .1s;*/
 }
 
-.product_img_list7:hover, .product_img_list7:focus{
-  background-image: url("../img/product/list7/school_bus-1.jpg");
+.schoolbus:hover, .schoolbus:focus{
+  background-image: url("../img/product/school_bus/school_bus-1.jpg");
 }
 /* end of image 7 */
 

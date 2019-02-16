@@ -54,24 +54,13 @@
 /* end of iamge3:product_img_shark */
 
 /* image 4 */
-.product_img_list4{
-  height: 300px;
-  width: 250px;
-  margin-left: 1rem;
-  overflow: auto;
-  display: block;
-  margin: auto;
-
+.yellow_flower{
   /*Making sure image only being rendered once and adding hover animation to change colour*/
-  background-image: url("../img/product/list4/yellow flower-1.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  /*transition: background-image .1s;*/
+  background-image: url("../img/product/yellow_flower/yellow flower-1.jpg");
 }
 
-.product_img_list4:hover, .product_img_list4:focus{
-  background-image: url("../img/product/list4/yellow flower-2.jpg");
+.yellow_flower:hover, .yellow_flower:focus{
+  background-image: url("../img/product/yellow_flower/yellow flower-2.jpg");
 }
 /* end of image 4 */
 

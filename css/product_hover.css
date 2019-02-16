@@ -1,7 +1,7 @@
 /* product image start from left corner */
 
 /* image 1*/
-.product_img_list1{
+.product_img_rose_love{
   height: 300px;
   width: 250px;
   margin-left: 1rem;
@@ -10,15 +10,15 @@
   margin: auto;
 
   /*Making sure image only being rendered once and adding hover animation to change colour*/
-  background-image: url("../img/product/list1/rose-1.jpg");
+  background-image: url("../img/product/rose_love/rose-1.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 
   /*transition: background-image .1s;*/
 }
 
-.product_img_list1:hover, .product_img_list1:focus{
-  background-image: url("../img/product/list1/rose-2.jpg");
+.product_img_rose_love:hover, .product_img_rose_love:focus{
+  background-image: url("../img/product/rose_love/rose-2.jpg");
 }
 /* end of image 1 */
 

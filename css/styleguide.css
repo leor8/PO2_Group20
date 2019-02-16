@@ -223,3 +223,9 @@ background-color: white;
 border: 1px solid #ffaec5;
 color:#ffaec5;
 }
+.cart{
+  margin:0;
+}
+.button-form-submit{
+margin:0;
+}

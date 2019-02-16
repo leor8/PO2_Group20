@@ -23,7 +23,7 @@
 /* end of image 1 */
 
 /* image 2: bird-ay */
-.product_img_list2{
+.product_img_ship{
   height: 300px;
   width: 250px;
   margin-left: 1rem;
@@ -32,15 +32,15 @@
   margin: auto;
 
   /*Making sure image only being rendered once and adding hover animation to change colour*/
-  background-image: url("../img/product/list2/ship-1.jpg");
+  background-image: url("../img/product/ship/ship-1.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 
   /*transition: background-image .1s;*/
 }
 
-.product_img_list2:hover, .product_img_list2:focus{
-  background-image: url("../img/product/list2/ship-2.jpg");
+.product_img_ship:hover, .product_img_ship:focus{
+  background-image: url("../img/product/ship/ship-2.jpg");
 }
 /* end of image2 */
 

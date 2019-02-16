@@ -1,51 +1,40 @@
 /* product image start from left corner */
 
-/* image 1*/
-.product_img_rose_love{
+.product_img{
   height: 300px;
   width: 250px;
   margin-left: 1rem;
   overflow: auto;
   display: block;
   margin: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
+/* image 1: product_img rose_love*/
+.rose_love{
   /*Making sure image only being rendered once and adding hover animation to change colour*/
   background-image: url("../img/product/rose_love/rose-1.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  /*transition: background-image .1s;*/
 }
 
-.product_img_rose_love:hover, .product_img_rose_love:focus{
+.rose_love:hover, .rose_love:focus{
   background-image: url("../img/product/rose_love/rose-2.jpg");
 }
-/* end of image 1 */
+/* end of image 1:product_img rose_love */
 
-/* image 2: bird-ay */
-.product_img_ship{
-  height: 300px;
-  width: 250px;
-  margin-left: 1rem;
-  overflow: auto;
-  display: block;
-  margin: auto;
-
+/* image 2:product_img ship */
+.ship{
   /*Making sure image only being rendered once and adding hover animation to change colour*/
   background-image: url("../img/product/ship/ship-1.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  /*transition: background-image .1s;*/
 }
 
-.product_img_ship:hover, .product_img_ship:focus{
+.ship:hover, .ship:focus{
   background-image: url("../img/product/ship/ship-2.jpg");
 }
-/* end of image2 */
+/* end of image2: product_img ship*/
 
-/* image 3:  */
-.product_img_list3{
+/* image 3:product_img_shark  */
+.product_img_shark{
   height: 300px;
   width: 250px;
   margin-left: 1rem;
@@ -54,17 +43,15 @@
   margin: auto;
 
   /*Making sure image only being rendered once and adding hover animation to change colour*/
-  background-image: url("../img/product/list3/shark-1.jpg");
+  background-image: url("../img/product/shark/shark-1.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-
-  /*transition: background-image .1s;*/
 }
 
-.product_img_list3:hover, .product_img_list3:focus{
-  background-image: url("../img/product/list3/shark-2.jpg");
+.product_img_shark:hover, .product_img_shark:focus{
+  background-image: url("../img/product/shark/shark-2.jpg");
 }
-/* end of iamge3 */
+/* end of iamge3:product_img_shark */
 
 /* image 4 */
 .product_img_list4{

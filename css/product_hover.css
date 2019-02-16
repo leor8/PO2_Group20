@@ -66,25 +66,14 @@
 }
 /* end of image 5: product_img partybear */
 
-/* image 6 */
-.product_img_list6{
-  height: 300px;
-  width: 250px;
-  margin-left: 1rem;
-  overflow: auto;
-  display: block;
-  margin: auto;
-
+/* image 6: product_img parrot */
+.parrot{
   /*Making sure image only being rendered once and adding hover animation to change colour*/
-  background-image: url("../img/product/list6/parrot-1.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  /*transition: background-image .1s;*/
+  background-image: url("../img/product/parrot/parrot-1.jpg");
 }
 
-.product_img_list6:hover, .product_img_list6:focus{
-  background-image: url("../img/product/list6/parrot-2.jpg");
+.parrot:hover, .parrot:focus{
+  background-image: url("../img/product/parrot/parrot-2.jpg");
 }
 /* end of image 6 */
 

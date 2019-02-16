@@ -1,8 +1,12 @@
 body, html {
   /*important */
   height: 100%;
+  /* margin-left: 3%;
+  margin-right: 3%; */
 }
-
+.navContainer{
+  margin-bottom: 2rem;
+}
 h1{
   font-size: 4rem;
   text-align: left;
@@ -129,7 +133,9 @@ h2{
 }
 
 .bg-1 {
-  background-image: url("../img/home/cover/parrot-cover.jpg");
+  /* background-image: url("../img/home/cover/parrot-cover.jpg"); */
+  background-image: url("../img/home/cover/bear-cover.jpeg");
+
 }
 .bg-2 {
   background-image: url("../img/home/cover/airplane-1.jpeg");
@@ -146,11 +152,11 @@ h2{
   min-height: 100%;
   padding: 4em 0;
   line-height: 1.6;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); */
   z-index: 3;
 }
 .color-pink {
-  background-color: #faf4f4;
+  background-color: white;
   color:grey;
 }
 .brand_name {

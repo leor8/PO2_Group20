@@ -33,27 +33,18 @@
 }
 /* end of image2: product_img ship*/
 
-/* image 3:product_img_shark  */
-.product_img_shark{
-  height: 300px;
-  width: 250px;
-  margin-left: 1rem;
-  overflow: auto;
-  display: block;
-  margin: auto;
-
+/* image 3:product_img shark  */
+.shark{
   /*Making sure image only being rendered once and adding hover animation to change colour*/
   background-image: url("../img/product/shark/shark-1.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
-.product_img_shark:hover, .product_img_shark:focus{
+.shark:hover, .shark:focus{
   background-image: url("../img/product/shark/shark-2.jpg");
 }
-/* end of iamge3:product_img_shark */
+/* end of iamge3:product_img shark */
 
-/* image 4 */
+/* image 4:product_img yellow_flower */
 .yellow_flower{
   /*Making sure image only being rendered once and adding hover animation to change colour*/
   background-image: url("../img/product/yellow_flower/yellow flower-1.jpg");
@@ -62,29 +53,18 @@
 .yellow_flower:hover, .yellow_flower:focus{
   background-image: url("../img/product/yellow_flower/yellow flower-2.jpg");
 }
-/* end of image 4 */
+/* end of image 4: product_img yellow_flower */
 
-/* image 5 */
-.product_img_list5{
-  height: 300px;
-  width: 250px;
-  margin-left: 1rem;
-  overflow: auto;
-  display: block;
-  margin: auto;
-
+/* image 5:product_img partybear */
+.partybear{
   /*Making sure image only being rendered once and adding hover animation to change colour*/
-  background-image: url("../img/product/list5/bear-1.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  /*transition: background-image .1s;*/
+  background-image: url("../img/product/partybear/bear-1.jpg");
 }
 
-.product_img_list5:hover, .product_img_list5:focus{
-  background-image: url("../img/product/list5/bear-2.jpg");
+.partybear:hover, .partybear:focus{
+  background-image: url("../img/product/partybear/bear-2.jpg");
 }
-/* end of image 5 */
+/* end of image 5: product_img partybear */
 
 /* image 6 */
 .product_img_list6{

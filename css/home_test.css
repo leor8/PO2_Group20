@@ -1,0 +1,182 @@
+body, html {
+  /*important */
+  height: 100%;
+  /* margin-left: 3%;
+  margin-right: 3%; */
+}
+.navContainer{
+  margin-bottom: 2rem;
+}
+h1{
+  font-size: 4rem;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  color:white;
+  -webkit-text-stroke: 2px pink;
+}
+h2{
+  font-size:1.8rem;
+  text-align: left;
+  padding-bottom: 0.5rem;
+  margin:0;
+  color:pink;
+}
+/* shop now button */
+/*define the buttom click on the homepage*/
+.button_click_shopnow{
+
+  border:0;
+  border-radius: 0.3rem;
+  text-align: center;
+  padding: 0.4rem;
+  transition: all 0.5s;
+  font-size: 1rem;
+  font-weight: 600;
+  display: block;
+  /*: relative;*/
+  width: 10rem;
+
+  background-color:#9aa3f7;
+  color:white;
+  font-family: Helvetica;
+
+}
+
+.button_click_shopnow span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button_click_shopnow span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -1rem;
+  transition: 0.5s;
+  color:white;
+  /*https://css-tricks.com/snippets/html/glyphs/*/
+}
+
+.button_click_shopnow:hover span {
+  padding-right: 1rem;
+}
+
+.button_click_shopnow:hover span:after {
+  opacity: 0.8;
+  right: 0;
+}
+.button_click_shopnow a{
+  color:white;
+  text-decoration: none;
+  font-family: Helvetica;
+
+
+}
+.button_click_shopnowa:hover{
+  border-radius: 0.5rem;
+  color:white;
+  padding: 1rem;
+  font-size: 1rem;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+}
+.flex-half{
+  flex: 0 0 45%;
+  margin-right: 5%;
+}
+
+.grid-home-title{
+  margin-left:10%;
+  margin-right:10%;
+  text-align: center;
+}
+.product_image{
+  margin-top: 1em;
+  max-width:40%;
+  min-width:200px;
+}
+
+.container {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+.container::after {
+  /* clearfix */
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/*main content  */
+.main-content {
+  /* you need to assign a min-height to the main content so that the children can inherit it*/
+  height: 100%;
+  position: relative;
+}
+
+/* bg img */
+.fixed-bg {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vh;
+  /* code source:https://codepen.io/taniarascia/pen/VpGXJQ */
+}
+
+.bg-1 {
+  /* background-image: url("../img/home/cover/parrot-cover.jpg"); */
+  background-image: url("../img/home/cover/bear-cover.jpeg");
+
+}
+.bg-2 {
+  background-image: url("../img/home/cover/airplane-1.jpeg");
+}
+
+@media only screen and (min-width: 73.125rem) {
+  .fixed-bg {
+    background-attachment: fixed;
+  }
+}
+
+.scrolling-bg {
+  position: relative;
+  min-height: 100%;
+  padding: 4em 0;
+  line-height: 1.6;
+  /* box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); */
+  z-index: 3;
+}
+.color-pink {
+  background-color: white;
+  color:grey;
+}
+.brand_name {
+  color: #b4bdf9;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.paragraph_text{
+  margin-left: 10%;
+  margin-right:10%;
+}
+
+@media only screen and (min-width: 48rem) {
+  .scrolling-bg {
+    padding: 8em 0;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 2;
+    font-weight: 300;
+  }
+
+}

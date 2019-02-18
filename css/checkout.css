@@ -232,13 +232,15 @@
   margin-top: 1.8rem;
 }
 
+/* edit button */
 .edit {
   font-size: 15px;
   font-family: Helvetica;
   outline: none;
   color: white;
-  background-color: #6571b7;
-  border: 1px solid #6571b7;
+
+  background-color: #9aa3f7;
+  border: 1px solid #9aa3f7;
   border-radius: 3px;
   padding: .2rem;
   min-width: 8em;
@@ -248,37 +250,41 @@
 /* clear interaction for edit button */
 .edit:hover, .edit:focus{
   color: white;
-  background-color: #9aa3f7;
-  border: 1px solid #9aa3f7;
+  background-color: #6571b7;
+  border: 1px solid #6571b7;
 
 }
 .edit:active{
-  color: #9aa3f7;
+  color: #6571b7;
   background-color:white;
-  border: 1px solid #9aa3f7;
+  border: 1px solid #6571b7;
 }
+
+/* delete button */
 .delete {
   font-size: 15px;
   font-family: Helvetica;
   padding: .2rem;
   outline: none;
-  color: #6571b7;
+  color: #9aa3f7;
   background-color:white;
-  border: 1px solid #6571b7;
+  border: 1px solid #9aa3f7;
   border-radius: 3px;
   min-width: 8em;
 
   display: inline-block;
 }
+/* clear transition for delete button */
+
 .delete:hover, .delete:focus{
-  color: #9aa3f7;
+  color: #6571b7;
   background-color:white;
-  border: 1px solid #9aa3f7;
+  border: 1px solid #6571b7;
 }
 .delete:active{
   color: white;
-  background-color:#9aa3f7;
-  border: 1px solid #9aa3f7;
+  background-color:#6571b7;
+  border: 1px solid #6571b7;
 }
 
 
@@ -371,6 +377,7 @@ form > div {
 .button-form-submit:hover{
   color: white;
   background-color: #6571b7;
+
 
 }
 .button-form-submit:active, .button-form-submit:focus{

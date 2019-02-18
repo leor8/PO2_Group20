@@ -1,181 +1,100 @@
 /* product image start from left corner */
 
-/* image 1*/
-.product_img_list1{
+.product_img{
   height: 300px;
   width: 250px;
   margin-left: 1rem;
   overflow: auto;
   display: block;
   margin: auto;
-
-  /*Making sure image only being rendered once and adding hover animation to change colour*/
-  background-image: url("../img/product/list1/rose-1.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-
-  /*transition: background-image .1s;*/
 }
 
-.product_img_list1:hover, .product_img_list1:focus{
-  background-image: url("../img/product/list1/rose-2.jpg");
-}
-/* end of image 1 */
-
-/* image 2: bird-ay */
-.product_img_list2{
-  height: 300px;
-  width: 250px;
-  margin-left: 1rem;
-  overflow: auto;
-  display: block;
-  margin: auto;
-
+/* image 1: product_img rose_love*/
+.rose_love{
   /*Making sure image only being rendered once and adding hover animation to change colour*/
-  background-image: url("../img/product/list2/ship-1.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  /*transition: background-image .1s;*/
+  background-image: url("../img/product/rose_love/rose-1.jpg");
 }
 
-.product_img_list2:hover, .product_img_list2:focus{
-  background-image: url("../img/product/list2/ship-2.jpg");
+.rose_love:hover, .rose_love:focus{
+  background-image: url("../img/product/rose_love/rose-2.jpg");
 }
-/* end of image2 */
+/* end of image 1:product_img rose_love */
 
-/* image 3:  */
-.product_img_list3{
-  height: 300px;
-  width: 250px;
-  margin-left: 1rem;
-  overflow: auto;
-  display: block;
-  margin: auto;
-
+/* image 2:product_img ship */
+.ship{
   /*Making sure image only being rendered once and adding hover animation to change colour*/
-  background-image: url("../img/product/list3/shark-1.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  /*transition: background-image .1s;*/
+  background-image: url("../img/product/ship/ship-1.jpg");
 }
 
-.product_img_list3:hover, .product_img_list3:focus{
-  background-image: url("../img/product/list3/shark-2.jpg");
+.ship:hover, .ship:focus{
+  background-image: url("../img/product/ship/ship-2.jpg");
 }
-/* end of iamge3 */
+/* end of image2: product_img ship*/
 
-/* image 4 */
-.product_img_list4{
-  height: 300px;
-  width: 250px;
-  margin-left: 1rem;
-  overflow: auto;
-  display: block;
-  margin: auto;
-
+/* image 3:product_img shark  */
+.shark{
   /*Making sure image only being rendered once and adding hover animation to change colour*/
-  background-image: url("../img/product/list4/yellow flower-1.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  /*transition: background-image .1s;*/
+  background-image: url("../img/product/shark/shark-1.jpg");
 }
 
-.product_img_list4:hover, .product_img_list4:focus{
-  background-image: url("../img/product/list4/yellow flower-2.jpg");
+.shark:hover, .shark:focus{
+  background-image: url("../img/product/shark/shark-2.jpg");
 }
-/* end of image 4 */
+/* end of iamge3:product_img shark */
 
-/* image 5 */
-.product_img_list5{
-  height: 300px;
-  width: 250px;
-  margin-left: 1rem;
-  overflow: auto;
-  display: block;
-  margin: auto;
-
+/* image 4:product_img yellow_flower */
+.yellow_flower{
   /*Making sure image only being rendered once and adding hover animation to change colour*/
-  background-image: url("../img/product/list5/bear-1.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  /*transition: background-image .1s;*/
+  background-image: url("../img/product/yellow_flower/yellow flower-1.jpg");
 }
 
-.product_img_list5:hover, .product_img_list5:focus{
-  background-image: url("../img/product/list5/bear-2.jpg");
+.yellow_flower:hover, .yellow_flower:focus{
+  background-image: url("../img/product/yellow_flower/yellow flower-2.jpg");
 }
-/* end of image 5 */
+/* end of image 4: product_img yellow_flower */
 
-/* image 6 */
-.product_img_list6{
-  height: 300px;
-  width: 250px;
-  margin-left: 1rem;
-  overflow: auto;
-  display: block;
-  margin: auto;
-
+/* image 5:product_img partybear */
+.partybear{
   /*Making sure image only being rendered once and adding hover animation to change colour*/
-  background-image: url("../img/product/list6/parrot-1.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  /*transition: background-image .1s;*/
+  background-image: url("../img/product/partybear/bear-1.jpg");
 }
 
-.product_img_list6:hover, .product_img_list6:focus{
-  background-image: url("../img/product/list6/parrot-2.jpg");
+.partybear:hover, .partybear:focus{
+  background-image: url("../img/product/partybear/bear-2.jpg");
 }
-/* end of image 6 */
+/* end of image 5: product_img partybear */
 
-/* image 7 */
-.product_img_list7{
-  height: 300px;
-  width: 250px;
-  margin-left: 1rem;
-  overflow: auto;
-  display: block;
-  margin: auto;
-
+/* image 6: product_img parrot */
+.parrot{
   /*Making sure image only being rendered once and adding hover animation to change colour*/
-  background-image: url("../img/product/list7/school_bus-2.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  /*transition: background-image .1s;*/
+  background-image: url("../img/product/parrot/parrot-1.jpg");
 }
 
-.product_img_list7:hover, .product_img_list7:focus{
-  background-image: url("../img/product/list7/school_bus-1.jpg");
+.parrot:hover, .parrot:focus{
+  background-image: url("../img/product/parrot/parrot-2.jpg");
 }
-/* end of image 7 */
+/* end of image 6: product_img parrot */
 
-/* image 8 */
-.product_img_list8 {
-  height: 300px;
-  width: 250px;
-  margin-left: 1rem;
-  overflow: auto;
-  display: block;
-  margin: auto;
-
+/* image 7: product_img schoolbus */
+.schoolbus{
   /*Making sure image only being rendered once and adding hover animation to change colour*/
-  background-image: url("../img/product/list8/duck-1.jpg");
-  /* background-image: url("../img/product/list7/school_bus-1.jpg"); */
-
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  /*transition: background-image .1s;*/
+  background-image: url("../img/product/school_bus/school_bus-1.jpg");
 }
 
-.product_img_list8:hover, .product_img_list8:focus{
-  background-image: url("../img/product/list8/duck-2.jpg");
-  /* background-image: url("../img/product/list8/arch card-2.jpg"); */
-
+.schoolbus:hover, .schoolbus:focus{
+  background-image: url("../img/product/school_bus/school_bus-2.jpg");
 }
-/* end of image 8 */
+/* end of image 7: product_img schoolbus */
+
+/* image 8:product_img duck */
+.duck {
+  /*Making sure image only being rendered once and adding hover animation to change colour*/
+  background-image: url("../img/product/duck/duck-1.jpg");
+}
+
+.duck:hover, .duck:focus{
+  background-image: url("../img/product/duck/duck-2.jpg");
+}
+/* end of iamge 8: product_img duck */

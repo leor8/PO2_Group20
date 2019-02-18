@@ -10,10 +10,10 @@
 }
 
  /*Code modified from https://stackoverflow.com/questions/18744164/flex-box-align-last-row-to-grid*/
- @media screen and (min-width: 1098px) {
+ @media screen and (min-width: 935px) {
   .product_listings::after{
     content: '';
-    width: 29vw;
+    width: 28.4vw;
   }
  }
 

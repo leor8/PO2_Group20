@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>PopDesign</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" href="img/logo.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <!-- Required css for all pages -->
+        <link rel="stylesheet" href="css/defaultCss/normalize.css">
+        <link rel="stylesheet" href="css/defaultCss/main.css">
+        <link rel="stylesheet" href="css/defaultCss/nav.css">
+        <link rel="stylesheet" href="css/defaultCss/footer.css">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+        <!-- Page specific css -->
+        <link rel="stylesheet" href="css/home.css">
+
+        <!-- JQuery CDN -->
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+        <!-- Main Index JavaScript -->
+        <script src="script/index.js"></script>
+    </head>
+
+    <body>
+
+      <!-- navigation bar for switching between different pages, i.e. styleguide, product listing pages -->
+      <header>
+        <a href="home.html"><img src="img/logo.png" alt="company logo" class="logo"></a>
+      </header>
+      <nav class="navContainer">
+        <div class="nav_item nav_link">
+          <a href="home.html">Home</a>
+        </div>
+
+        <i class="fas fa-times nav_icon"></i>
+
+        <div class="nav_item nav_link active">
+          <a href="product_listing.html">Handmade Cards</a>
+        </div>
+
+
+        <i class="fas fa-heart nav_icon"></i>
+
+        <div class="nav_item nav_link">
+          <a href="events.html">Events</a>
+        </div>
+
+
+        <i class="fas fa-times nav_icon"></i>
+
+        <div class="nav_item nav_link">
+          <a class="shopping_cart" href="checkout.html">Cart (4)</a>
+        </div>
+
+
+      </nav>
+
+      <main>
+        <section class="first_section">
+          <h1 class="main_title">Let's Shop</h1>
+          <!-- <h2 class = "sub_title"> Delight with Unexpected</h2> -->
+          <p class="main_text">Pick up your favorite cards for upcoming Valentines'day from our hundreds of handmand cards.</p>
+          <a href="product_listing.html" class="shop_now">SHOP NOW</a>
+        </section>
+
+        <section class="second_section">
+          <h2 class="brand_name">PopDesign</h2>
+          <p class="brand_text">PopDesign offers personalized, handmade paper greeting cards. these greeting cards are produced from recycled material and printed with a customized greeting message.</p>
+        </section>
+
+         <section class="third_section">
+          <img src="img/bday-card_home.jpg" alt="A Card" class="home_img">
+          <div class="img_content">
+            <p class="img_content_text"> We believe relationships are the most important thing in a person’s life, and our goal is to encourage people to express themselves more often.</p>
+          </div>
+        </section>
+
+        <!-- <section class="third_section">
+          <img src="img/bday-card_home.jpg" alt="birthday card image" class="home_img">
+          <div class="img_content">
+            <p class="img_content_text">PopDesign offers personalized, handmade paper greeting cards. these greeting cards are produced from recycled material and printed with a customized greeting message.</p>
+          </div>
+        </section> -->
+      </main>
+
+      <footer class="footer">
+        <section class="footer_item">
+          <h2 class="footer_heading"> ABOUT </h2>
+          <p class="footer_company">
+            We offer personalized handmade greeting cards.
+            <a href="styleguide.html" class="linked-text">styleguide</a>
+            <a href="citations.html" class="linked-text">citations</a>
+            <a href="https://github.com/leor8/PO2_Group20" class="linked-text">github</a>
+          </p>
+        </section>
+        <section class="footer_item">
+          <h2 class="footer_heading">SOCIAL MEDIA</h2>
+
+          <div class="social_items">
+            <div class="social_item">
+              <i class="fab fa-instagram fa-2x"></i>
+              <a class="social_link">PopDesign</a>
+            </div>
+
+            <div class="social_item">
+              <i class="fab fa-twitter-square fa-2x"></i>
+              <a class="social_link">PopDesign</a>
+            </div>
+
+            <div class="social_item">
+              <i class="fab fa-facebook-square fa-2x"></i>
+              <a class="social_link">PopDesign</a>
+            </div>
+          </div>
+
+
+        </section>
+        <section class="footer_item">
+          <h2 class="footer_heading">Subscribe</h2>
+          <p class="signup_text">Sign up for our Newsletter</p>
+          <div class="email_input">
+            <input type="email" name="email" id="email" placeholder="your@email.com"> <input type="submit" name="submit" value="SUBSCRIBE" class="sub">
+          </div>
+
+        </section>
+
+      </footer>
+
+    </body>
+</html>

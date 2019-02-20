@@ -9,6 +9,7 @@
     margin: 3rem 2rem 40rem 2rem;
 
     display: flex;
+    justify-content: space-between;
 
   }
 
@@ -88,6 +89,7 @@
     width: calc(100% - 4rem);
     margin: 3rem 2rem 24rem 2rem;
 
+
   }
 
   .cart_items {
@@ -99,22 +101,25 @@
   }
 
   .item_title {
-    display: block !important;
-    width: 100px;
+    /*display: block !important;*/
+    /*width: 140px;*/
     margin: auto;
     text-align: center;
   }
 
   .btns {
     display: block;
-    padding-left: 2em;
     width: 290px;
     margin:auto;
-
+    padding-left: 2rem;
   }
 
   .item_content {
     border-bottom: 1px solid gray;
+
+    /* Overriding css properties outside of media query*/
+    text-align: center !important;
+    margin-right: 0rem !important;
   }
 
   .cart_summary {
@@ -208,7 +213,8 @@
   height: auto;
   width: 400px;
 
-  float: right;
+  text-align: right;
+  margin-right: 2rem;
 }
 
 

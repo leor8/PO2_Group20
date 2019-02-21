@@ -122,15 +122,31 @@ h2{
   position: relative;
 }
 
-/* bg img */
-.fixed-bg {
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 90vh;
-  /* code source:https://codepen.io/taniarascia/pen/VpGXJQ */
+@media screen and (min-width: 600px) {
+  /* bg img */
+  .fixed-bg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    /* code source:https://codepen.io/taniarascia/pen/VpGXJQ */
+  }
 }
+
+@media screen and (max-width: 599px) {
+  .fixed-bg {
+    height: 90vh;
+    /*height: 100%;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-attachment: fixed;*/
+  }
+}
+
 
 .bg-1 {
   /* background-image: url("../img/home/cover/parrot-cover.jpg"); */
@@ -139,12 +155,6 @@ h2{
 }
 .bg-2 {
   background-image: url("../img/home/cover/airplane-1.jpeg");
-}
-
-@media only screen and (min-width: 73.125rem) {
-  .fixed-bg {
-    background-attachment: fixed;
-  }
 }
 
 .scrolling-bg {

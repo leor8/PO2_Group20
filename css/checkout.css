@@ -172,6 +172,11 @@
     padding-left: .6rem;
   }
 
+  .button-form-submit  {
+    /*Override outside css because input length are not full length so the button cannot be centered using margin auto*/
+    margin-left: 24% !important;
+  }
+
 }
 
 
@@ -367,6 +372,7 @@ form > div {
   font-family: Helvetica;
   outline: none;
   color: white;
+
   /* purple */
   background-color: #9aa3f7;
   border: 1px solid #9aa3f7;
@@ -374,6 +380,7 @@ form > div {
   border-radius: 3px;
   padding: .3rem;
   min-width: 5rem;
+
   display: block;
   margin: auto;
   margin-top: 2rem;

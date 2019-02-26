@@ -7,7 +7,7 @@ PopDesign offers personalized, handmade paper greeting cards. these greeting car
 
 ## Visit
 
-To visit the website, go to [PopDesign](http://www.sfu.ca/~leor/IAT339/PO2_Group20/).
+To visit the website, go to [PopDesign](http://www.sfu.ca/~leor/IAT339/PO2_Group20/home.html).
 
 OR
 

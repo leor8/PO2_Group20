@@ -17,3 +17,7 @@ git clone git@github.com:leor8/PO2_Group20.git
 cd PO2_Group20
 open index.html
 ```
+
+## Project Description
+
+This project is a course project for Simon Fraser University's Interactive Arts and Technology course IAT339. The project is heavily HTML semantic and CSS focused with fully responsive requirements.

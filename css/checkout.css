@@ -354,6 +354,7 @@ form > div {
   display: block;
   margin-top: 0.3rem;
   width: 200px;
+  font-size: 0.9rem;
 }
 
 .button-form-submit{

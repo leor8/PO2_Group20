@@ -192,40 +192,220 @@ p{
 }
 
 /* shop now button style */
-.headline_button {
-text-align: left;
-padding: .5rem;
-/* display: block; */
-width: 100px;
+.button_click_shopnow{
+  font-family: Helvetica;
 
-/* positioning the button idea from https://www.sitepoint.com/community/t/possible-to-float-right-and-stick-to-bottom-simultaneously-without-using-margin/38382/2*/
-/* position: absolute; */
-bottom: 1rem;
-right: 1rem;
+  border:0;
+  border-radius: 0.3rem;
+  text-align: center;
+  padding: 0.4rem;
+  transition: all 0.5s;
+  font-size: 1rem;
+  font-weight: 600;
+  display: block;
+  /*: relative;*/
+  width: 10rem;
+
+  background-color:#9aa3f7;
+  color:white;
 text-decoration: none;
-/* Button styling design*/
-/* pink background and white text  */
-color: white;
-background-color: #b4bdf9;
-border: 1px solid #b4bdf9;
-transition: background-color .5s, color .5s;
-border-radius: 3px;
 }
 
-.headline_button:hover{
-/* pink border and white text */
-background-color: #ffaec5;
-border: 1px solid #ffaec5;
-color: white;
+.button_click_shopnow span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
-.headline_button:focus{
-background-color: white;
-border: 1px solid #ffaec5;
-color:#ffaec5;
+
+.button_click_shopnow span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -1rem;
+  transition: 0.5s;
+  color:white;
+  /*https://css-tricks.com/snippets/html/glyphs/*/
 }
-.cart{
-  margin:0;
+
+/* Place your order button on checkout list */
+.button_click_shopnowa:hover{
+  border-radius: 0.5rem;
+  color:white;
+  padding: 1rem;
+  font-size: 1rem;
 }
+
+.button_click_shopnow:hover span {
+  padding-right: 1rem;
+}
+
+.button_click_shopnow:hover span:after {
+  opacity: 0.8;
+  right: 0;
+}
+.button_click_shopnow a{
+  color:white;
+  text-decoration: none;
+  font-family: Helvetica;
+}
+
 .button-form-submit{
-margin:0;
+  font-size: 14px;
+  font-family: Helvetica;
+  outline: none;
+  color: white;
+
+  /* purple */
+  background-color: #9aa3f7;
+  border: 1px solid #9aa3f7;
+
+  border-radius: 3px;
+  padding: .3rem;
+  min-width: 5rem;
+
+  display: block;
+  margin-left: 0;
+  margin-top: 2rem;
+
 }
+/* clear interaction for submit button */
+.button-form-submit:hover{
+  color: white;
+  background-color: #6571b7;
+
+
+}
+.button-form-submit:active, .button-form-submit:focus{
+  color: #6571b7;
+  background-color:white;
+  border: 1px solid #6571b7;
+}
+
+/* end of place your order button */
+
+/* add to cart button on product list page */
+.cart {
+  font-size: 15px;
+
+  padding: .3rem .8rem;
+  border-radius: 3px;
+  /* bright pink */
+  border: 1px solid #b4bdf9;
+  color: #b4bdf9;
+  /*Removing outline when button is clicked*/
+  outline: none;
+
+  transition: background-color .5s, color .5s;
+
+  /*Positioning*/
+  display: block;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  background-color: white;
+}
+
+.cart:hover, .cart:focus {
+  /* light pink */
+  border: 1px solid #ffaec5;
+  background-color: white;
+  color: #ffaec5;
+}
+.cart:active {
+  background-color: #ffaec5;
+  color: white;
+}
+/* end of add to cart button */
+
+/* style of edit and delete buttons */
+/* edit button */
+.edit {
+  font-size: 15px;
+  font-family: Helvetica;
+  outline: none;
+  color: white;
+
+  background-color: #9aa3f7;
+  border: 1px solid #9aa3f7;
+  border-radius: 3px;
+  padding: .2rem;
+  min-width: 8em;
+
+  display: inline-block;
+}
+/* clear interaction for edit button */
+.edit:hover, .edit:focus{
+  color: white;
+  background-color: #6571b7;
+  border: 1px solid #6571b7;
+
+}
+.edit:active{
+  color: #6571b7;
+  background-color:white;
+  border: 1px solid #6571b7;
+}
+
+/* delete button */
+.delete {
+  font-size: 15px;
+  font-family: Helvetica;
+  padding: .2rem;
+  outline: none;
+  color: #9aa3f7;
+  background-color:white;
+  border: 1px solid #9aa3f7;
+  border-radius: 3px;
+  min-width: 8em;
+
+  display: inline-block;
+}
+/* clear transition for delete button */
+
+.delete:hover, .delete:focus{
+  color: #6571b7;
+  background-color:white;
+  border: 1px solid #6571b7;
+}
+.delete:active{
+  color: white;
+  background-color:#6571b7;
+  border: 1px solid #6571b7;
+}
+
+/* end of edit and delete buttons */
+/* style of email */
+.email_input {
+  display: block;
+  margin: 0;
+  max-width: 300px;
+  display: flex;
+}
+
+.sub {
+  font-size: .8rem;
+  /* padding: .4rem; */
+  flex: 1;
+  padding: 1px;
+  margin-bottom: 0.4rem;
+
+}
+/* put email */
+#email{
+  flex: 3;
+  padding: 1px;
+  margin-bottom: 0.4rem;
+}
+
+#email:hover{
+  padding: 1px;
+  background-color: #e6e6ff;
+
+}
+
+#email:active{
+  border: 1px solid #9999ff;
+  background-color: #ffe6ee;
+}
+/* end of email */

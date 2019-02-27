@@ -32,9 +32,9 @@
     </div>
   </nav>
   <!-- end with nav bar-->
-<!-- end of top section -->
+  <!-- end of top section -->
 
-<a href="#top" class="topBtn"></a>
+  <a href="#top" class="topBtn"></a>
   <section id="styleguide">
     <h1 class="header-one">Styleguide</h1>
     <!--  Navigation Button -->
@@ -61,13 +61,19 @@
       <div class="flex">
         <div class="flex-half">
           <h3 class="header-three">Rendered Element:</h3>
-          <a href="#" class="button_click_shopnow">SHOP NOW!</a>
+          <div class="button_click_shopnow">
+            <a href="#">
+              <span>
+                SHOP NOW!
+              </span>
+            </a>
+          </div>
         </div>
         <div class="flex-half">
           <h3 class="header-three">CSS Selector:</h3>
           <p>.button_click_shopnow</p>
           <h3 class="header-three">Sample Code:</h3>
-          <code>&lt;a href = "#" class="button_click_shopnow"&gt;SHOP NOW!&lt;/a&gt;</code>
+          <code>&lt;div class="button_click_shopnow"&gt;&lt;a href="#"&gt;&lt;span&gt;SHOP NOW!&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;</code>
         </div>
       </div>
     </section>
@@ -98,8 +104,8 @@
         <div class="flex-half">
           <h3 class="header-three">Rendered Element:</h3>
           <form>
-          <input type="submit" class="button-form-submit" value="Place Your Order!">
-        </form>
+            <input type="submit" class="button-form-submit" value="Place Your Order!">
+          </form>
         </div>
         <div class="flex-half">
           <h3 class="header-three">CSS Selector:</h3>
@@ -161,17 +167,21 @@
         <div class="flex-half">
           <h3 class="header-three">Rendered Element:</h3>
           <form>
-          <label for="fname">Name on card: </label>
-          <input type="text" name="name1" class ="text_input1" id ="fname">
-        </form>
+            <!-- expired date -->
+            <label for="expireData">Expired date </label>
+            <input type="text" name="name1" class ="text_input1" id ="expireData" placeholder="MM/YYYY">
+            <!-- Security Code -->
+            <label for="scode">Security Code</label>
+            <input type="text" name="name1" class ="text_input1" id ="scode">
+          </form>
         </div>
         <div class="flex-half">
           <h3 class="header-three">CSS Selector:</h3>
-          <p>.email_input</p>
+          <p>.text_input1</p>
           <h3 class="header-three">Sample Code:</h3>
-          <code> &lt;form&gt;&lt;label for="fname"&gt;Name on card: &lt;/label&gt;</code>
+          <code>&lt;input type="text" name="name1" class ="text_input1" id ="expireData" placeholder="MM/YYYY"&gt;</code>
           <br>
-          <code>&lt;input type="text" name="name1" class ="text_input1" id ="fname"&gt; &lt;/form&gt;</code>
+          <code>&lt;input type="text" name="name1" class ="text_input1" id ="scode"&gt;&lt;/form&gt;</code>
         </div>
       </div>
     </section>
@@ -184,14 +194,14 @@
         <div class="flex-half">
           <h3 class="header-three">Rendered Element:</h3>
           <a href="#" class="detail_img_link">
-            <div class="product_img_rad"></div>
+            <div class="product_img rose_love"></div>
           </a>
         </div>
         <div class="flex-half">
           <h3 class="header-three">CSS Selector:</h3>
-          <p>.product_img_rad</p>
+          <p>.product_img rose_love</p>
           <h3 class="header-three">Sample Code:</h3>
-          <code>&lt;a href="product_detail.html" class="detail_img_link"&gt;&lt;div class="product_img_rad"&gt;&lt;/div&gt;&lt;/a&gt;
+          <code>&lt;a href="#" class="detail_img_link"&gt;&lt;div class="product_img rose_love"&gt;&lt;/div&gt;&lt;/a&gt;
           </code>
         </div>
       </div>
@@ -225,27 +235,46 @@
       </div>
     </section>
     <!-- end of headings -->
+
+    <!-- paragraph text -->
+    <section id="heading-levels">
+      <h2 class="header-two">DESCRIPTION TEXT</h2>
+      <div class="flex">
+        <div class="flex-half">
+          <h3 class="header-three">Rendered Element:</h3>
+            <p class>This is a pagraph in size of 0.9rem.</p>
+        </div>
+        <div class="flex-half">
+          <h3 class="header-three">CSS Selector:</h3>
+          <p>.description_text</p>
+          <h3 class="header-three">Sample Code:</h3>
+          <code>&lt;p&gt;This is a pagraph in size of 0.9rem.&lt;/p&gt;</code>
+        </div>
+      </div>
+    </section>
+    <!-- end of paragraph text -->
+
     <!-- unordered list -->
     <section id="unordered_list">
-         <h2 class="header-two">UNORDERED LIST</h2>
-         <div class="flex">
-           <div class="flex-half">
-             <h3 class="header-three">Rendered Element:</h3>
-             <ul class="list-unordered">
-               <li>Unordered list 1</li>
-               <li>Unordered list 2</li>
-               <li>Unordered list 3</li>
-             </ul>
-           </div>
-           <div class="flex-half">
-             <h3 class="header-three">CSS Selector:</h3>
-             <p>.list-unordered</p>
-             <h3 class="header-three">Sample Code:</h3>
-             <code>&lt;ul class="list-unordered"&gt;&lt;li&gt;This is a list item inside an unordered list.&lt;/li&gt;&lt;/ul&gt;</code>
-           </div>
-         </div>
-       </section>
-       <!-- end of list -->
+      <h2 class="header-two">UNORDERED LIST</h2>
+      <div class="flex">
+        <div class="flex-half">
+          <h3 class="header-three">Rendered Element:</h3>
+          <ul class="list-unordered">
+            <li>Unordered list 1</li>
+            <li>Unordered list 2</li>
+            <li>Unordered list 3</li>
+          </ul>
+        </div>
+        <div class="flex-half">
+          <h3 class="header-three">CSS Selector:</h3>
+          <p>.list-unordered</p>
+          <h3 class="header-three">Sample Code:</h3>
+          <code>&lt;ul class="list-unordered"&gt;&lt;li&gt;This is a list item inside an unordered list.&lt;/li&gt;&lt;/ul&gt;</code>
+        </div>
+      </div>
+    </section>
+    <!-- end of list -->
     <!-- color palette -->
     <section id="colour_palette">
       <h2 class="header-two">SITE COLOUR PALETTE</h2>

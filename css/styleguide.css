@@ -125,11 +125,12 @@ code {
   /* light pink  */
   background-color: #ffe6ff;
   padding: 0.25rem 0.5rem;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color:#08302f;
   min-width:150px;
-  height:auto;
-  max-width: 100%;}
+  height:2rem;
+  max-width: 100%;
+}
 p{
   font-size: 0.9rem;
 }
@@ -302,7 +303,7 @@ text-decoration: none;
   /*Positioning*/
   display: block;
   margin-top: 1rem;
-  margin-left: 3rem;
+  margin-left: 0;
   background-color: white;
 }
 
@@ -409,3 +410,60 @@ text-decoration: none;
   background-color: #ffe6ee;
 }
 /* end of email */
+
+/* input with label */
+.text_input1{
+  border: .5px solid #9999ff;
+  border-radius: 5px;
+  margin-top: .3rem;
+  margin-bottom: 0.4rem;
+  height: 24px;
+  max-width: 200px;
+  padding: .2rem;
+  padding-left: .6rem;
+  display: block;
+}
+
+.text_input1:hover{
+  border: .5px solid #9999ff;
+  background-color: #e6e6ff;
+}
+
+.text_input1:active{
+  border: .5px solid #9999ff;
+  background-color: #ffe6ee;
+}
+/* end of input with label */
+
+/* image link */
+
+.product_img{
+  height: 200px;
+  width: 200px;
+  margin-left: 0rem;
+  overflow: auto;
+  display: block;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* image 1: product_img rose_love*/
+.rose_love{
+  /*Making sure image only being rendered once and adding hover animation to change colour*/
+  background-image: url("../img/product/rose_love/rose-1.jpg");
+}
+
+.rose_love:hover, .rose_love:focus{
+  background-image: url("../img/product/rose_love/rose-2.jpg");
+}
+/* end of image 1:product_img rose_love */
+
+/* end of image link */
+/* description text */
+.description_text {
+  padding-top: 1rem;
+  margin: 0 2rem 0 2rem;
+  font-size: 0.9rem;
+
+}

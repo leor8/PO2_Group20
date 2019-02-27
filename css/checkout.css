@@ -76,10 +76,10 @@
     margin-top: .3rem;
     margin-bottom: 0.4rem;
     height: 24px;
-    width: 60%;
     padding: .2rem;
     padding-left: .6rem;
-    max-width: 300px;
+    max-width: 100%;
+    width:309px;
 
   }
 }
@@ -90,8 +90,6 @@
     /*background-color: white;*/
     width: calc(100% - 4rem);
     margin: 3rem 2rem 24rem 2rem;
-
-
   }
 
   .cart_items {
@@ -143,18 +141,6 @@
     margin-left: 2rem;
   }
 
-  .text_input1 {
-    display: block;
-    border: .5px solid #9999ff;
-    border-radius: 5px;
-    margin-top: .3rem;
-    margin-bottom: 0.4rem;
-    height: 24px;
-    max-width: 300px;
-    padding: .2rem;
-    padding-left: .6rem;
-  }
-
   .checkout_form {
     padding-top: 3rem;
     width: 92%;
@@ -169,10 +155,9 @@
     margin-top: .3rem;
     margin-bottom: 0.4rem;
     height: 24px;
-    width: 88%;
     padding: .2rem;
     padding-left: .6rem;
-    max-width: 300px;
+    width: 270px;
 
   }
 

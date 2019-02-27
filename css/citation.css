@@ -5,7 +5,7 @@
   padding: 2rem;
 }
 .citations{
-  padding-top:1rem;
+  padding-top:2rem;
   border-top: 1px solid grey;
   margin-bottom: 2rem;
   margin-top:2rem;
@@ -18,4 +18,12 @@
   border-top: 2px solid #ffaec5;
   margin-bottom: 2rem;
   margin-top:2rem;
+}
+
+.citation_text{
+  font-weight: 400;
+  font-size: 0.9rem;
+margin: 0;
+padding-top: 1rem;
+
 }

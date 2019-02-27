@@ -82,6 +82,10 @@
     width:309px;
 
   }
+
+  .button-form-submit {
+    margin-left: 6rem !important;
+  }
 }
 
 /* When the image of items are too big to be stored*/
@@ -157,7 +161,7 @@
     height: 24px;
     padding: .2rem;
     padding-left: .6rem;
-    width: 270px;
+    width: 250px;
 
   }
 
@@ -167,6 +171,7 @@
   }
 
 }
+
 
 
 .cart_items {
@@ -343,6 +348,7 @@
   /* Pushing back the title*/
   margin-left: -.8vw;
   margin-bottom: 1rem;
+  color: #ffaec5;
 }
 
 /* Leaving out space between each form item */

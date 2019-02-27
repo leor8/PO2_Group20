@@ -76,9 +76,11 @@
     margin-top: .3rem;
     margin-bottom: 0.4rem;
     height: 24px;
-    width: 100%;
+    width: 60%;
     padding: .2rem;
     padding-left: .6rem;
+    max-width: 300px;
+
   }
 }
 
@@ -148,7 +150,7 @@
     margin-top: .3rem;
     margin-bottom: 0.4rem;
     height: 24px;
-    max-width: 600px;
+    max-width: 300px;
     padding: .2rem;
     padding-left: .6rem;
   }
@@ -170,6 +172,8 @@
     width: 88%;
     padding: .2rem;
     padding-left: .6rem;
+    max-width: 300px;
+
   }
 
   .button-form-submit  {

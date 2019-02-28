@@ -355,22 +355,19 @@ tbody {
   padding: 8px;
   margin-bottom: 0.4rem;
   background-color: #9aa3f7;
-color:white;
-border-color: 1px solid #9aa3f7;
-font-family: Helvetica;
-
-
-
+  color:white;
+  border: 1px solid #9aa3f7;
+  font-family: Helvetica;
 }
 .sub:hover{
   color: #9aa3f7;
   background-color:#e6e6ff;
-  border-color: 1px solid #e6e6ff;
+  border: 1px solid #e6e6ff;
 }
 .sub:active{
   background-color: #e6e6ff;
-color:black;
-border-color: 1px solid #e6e6ff;
+  color:black;
+  border: 1px solid #e6e6ff;
 
 }
 /* put email */

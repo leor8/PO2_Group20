@@ -25,41 +25,41 @@ body {
 }
 /* scroll to top button */
 /*Floating Back-To-Top Button*/
-  .topBtn{
-        position: fixed;
-        bottom: 20px;
-        float: right;
-        width: 100%;
-        left: 90%;
-        height: 80px;
-        overflow: auto;
-        display: block;
-        margin: auto;
-        background-image: url("../img/scroll_to_top/top.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
+.topBtn{
+  position: fixed;
+  bottom: 20px;
+  float: right;
+  width: 100%;
+  left: 90%;
+  height: 80px;
+  overflow: auto;
+  display: block;
+  margin: auto;
+  background-image: url("../img/scroll_to_top/top.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 /*On Hover Color Change*/
-    .topBtn:hover {
-        background-image: url("../img/scroll_to_top/top_hover.png");
-    }
+.topBtn:hover {
+  background-image: url("../img/scroll_to_top/top_hover.png");
+}
 
-    .topBtn:focus {
-        background-image: url("../img/scroll_to_top/top_focus.png");
-    }
-    @media screen and (max-width:800px) {
-      .topBtn {
-/* make it smaller */
-        height: 60px;
-      }
-    }
-    @media screen and (max-width:450px) {
-      .topBtn {
-/* make it smaller */
-        height: 50px;
-        left: 86%;
-      }
-    }
+.topBtn:focus {
+  background-image: url("../img/scroll_to_top/top_focus.png");
+}
+@media screen and (max-width:800px) {
+  .topBtn {
+    /* make it smaller */
+    height: 60px;
+  }
+}
+@media screen and (max-width:450px) {
+  .topBtn {
+    /* make it smaller */
+    height: 50px;
+    left: 86%;
+  }
+}
 /* section id style */
 #styleguide{
   margin-top: 2rem;
@@ -225,7 +225,7 @@ p{
 
   background-color:#9aa3f7;
   color:white;
-text-decoration: none;
+  text-decoration: none;
 }
 
 .button_click_shopnow span {
@@ -392,20 +392,37 @@ text-decoration: none;
 }
 
 /* end of edit and delete buttons */
+
 /* style of email */
 .email_input {
   display: block;
   margin: 0;
   max-width: 300px;
   display: flex;
+  justify-content: center;
 }
 
 .sub {
   font-size: .8rem;
   /* padding: .4rem; */
   flex: 1;
-  padding: 1px;
+  padding: 8px;
   margin-bottom: 0.4rem;
+  background-color: #9aa3f7;
+color:white;
+border-color: 1px solid #9aa3f7;
+font-family: Helvetica;
+
+}
+.sub:hover{
+  background-color: #e6e6ff;
+  color:#9aa3f7;
+  border-color: 1px solid #e6e6ff;
+}
+.sub:active{
+  background-color: #e6e6ff;
+color:black;
+border-color: 1px solid #e6e6ff;
 
 }
 /* put email */

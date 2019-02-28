@@ -329,3 +329,63 @@ tbody {
   }
 
 }
+
+.join_us{
+  color: #b4bdf9;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.sub_text{
+  font-size: 1.2rem;
+  text-align: center;
+}
+/* style of email */
+.email_input {
+  display: block;
+  margin: 0;
+  max-width: 300px;
+  display: flex;
+}
+.sub {
+  font-size: .8rem;
+  /* padding: .4rem; */
+  flex: 1;
+  padding: 8px;
+  margin-bottom: 0.4rem;
+  background-color: #9aa3f7;
+color:white;
+border-color: 1px solid #9aa3f7;
+font-family: Helvetica;
+
+
+
+}
+.sub:hover{
+  color: #9aa3f7;
+  background-color:#e6e6ff;
+  border-color: 1px solid #e6e6ff;
+}
+.sub:active{
+  background-color: #e6e6ff;
+color:black;
+border-color: 1px solid #e6e6ff;
+
+}
+/* put email */
+#email{
+  flex: 3;
+  padding: 1px;
+  margin-bottom: 0.4rem;
+}
+
+#email:hover{
+  padding: 1px;
+  background-color: #e6e6ff;
+
+}
+
+#email:active{
+  border: 1px solid #9999ff;
+  background-color: #ffe6ee;
+}

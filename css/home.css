@@ -343,7 +343,8 @@ tbody {
 /* style of email */
 .email_input {
   display: block;
-  margin: 0;
+  margin: auto;
+  margin-top: 2rem;
   max-width: 300px;
   display: flex;
 }

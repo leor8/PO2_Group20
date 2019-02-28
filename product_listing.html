@@ -4,290 +4,286 @@
 
 <html lang="en">
 
-  <head>
-    <title> PopDesign</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <title> PopDesign</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" href="img/logo.png">
-    <!-- Required css for all pages -->
-    <link rel="stylesheet" href="css/defaultCss/normalize.css">
-    <link rel="stylesheet" href="css/defaultCss/main.css">
-    <link rel="stylesheet" href="css/defaultCss/nav.css">
-    <link rel="stylesheet" href="css/defaultCss/footer.css">
+  <link rel="icon" href="img/logo.png">
+  <!-- Required css for all pages -->
+  <link rel="stylesheet" href="css/defaultCss/normalize.css">
+  <link rel="stylesheet" href="css/defaultCss/main.css">
+  <link rel="stylesheet" href="css/defaultCss/nav.css">
+  <link rel="stylesheet" href="css/defaultCss/footer.css">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-    <!-- Page Specific css -->
-    <link rel="stylesheet" type="text/css" href="css/product.css">
-    <link rel="stylesheet" type="text/css" href="css/product_hover.css">
+  <!-- Page Specific css -->
+  <link rel="stylesheet" type="text/css" href="css/product.css">
+  <link rel="stylesheet" type="text/css" href="css/product_hover.css">
+  <link rel="stylesheet" type="text/css" href="css/large_title.css">
 
-    <!-- JQuery CDN -->
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous"></script>
 
-    <!-- Main Index JavaScript -->
-    <script src="script/index.js"></script>
+  <!-- JQuery CDN -->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
 
-  </head>
+  <!-- Main Index JavaScript -->
+  <script src="script/index.js"></script>
 
-  <body>
-    <!-- navigation bar for switching between different pages, i.e. styleguide, product listing pages -->
-    <header>
-      <a href="home.html"><img src="img/logo.png" alt="company logo" class="logo"></a>
-    </header>
-    <nav class="navContainer">
-      <div class="nav_item nav_link">
-        <a href="home.html">Home</a>
+</head>
+
+<body>
+  <!-- navigation bar for switching between different pages, i.e. styleguide, product listing pages -->
+  <header>
+    <a href="home.html"><img src="img/logo.png" alt="company logo" class="logo"></a>
+  </header>
+  <nav class="navContainer">
+    <div class="nav_item nav_link">
+      <a href="home.html">Home</a>
+    </div>
+
+    <i class="fas fa-times nav_icon"></i>
+
+    <div class="nav_item nav_link active">
+      <a href="product_listing.html">Product</a>
+    </div>
+
+
+    <i class="fas fa-heart nav_icon"></i>
+
+    <div class="nav_item nav_link">
+      <a href="events.html">Event</a>
+    </div>
+
+
+    <i class="fas fa-times nav_icon"></i>
+
+    <div class="nav_item nav_link">
+      <a class="shopping_cart" href="checkout.html">Cart (4)</a>
+    </div>
+
+  </nav>
+
+
+  <!-- The overall container wraps all the content -->
+  <!-- large title to notify the audiences they are on product page -->
+  <section class="top_title">
+    <img src="img/title/product.png" alt="title of product" class="title_img">
+  </section>
+
+  <section class="product_listings">
+
+    <div class="product">
+      <a href="product_detail_pages/product_roselove.html" class="detail_img_link"><div class="product_img rose_love"></div></a>
+
+      <div class="product_content">
+        <h2 class="product_title"><a href="product_detail_pages/product_roselove.html">Rose Love</a></h2>
+        <div class="product_detail">
+          <p class="product_price">$7.99</p>
+          <div class="ratings">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <p class="rating_count">(540)</p>
+          </div>
+          <button class="cart">Add to Cart</button>
+        </div>
       </div>
 
-      <i class="fas fa-times nav_icon"></i>
+    </div>
 
-      <div class="nav_item nav_link active">
-        <a href="product_listing.html">Handmade Cards</a>
+    <div class="product">
+      <!-- <img src="img/RadDad.png" alt="fathers day card" class="product_img"> -->
+      <a href="product_detail_pages/product_ship.html" class="detail_img_link"><div class="product_img ship"></div></a>
+
+      <div class="product_content">
+        <h2 class="product_title"><a href="product_detail_pages/product_ship.html">Ship</a></h2>
+        <div class="product_detail">
+          <p class="product_price">$6.99</p>
+          <div class="ratings">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star no_fill"></i>
+            <p class="rating_count">(502)</p>
+          </div>
+          <button class="cart">Add to Cart</button>
+        </div>
       </div>
 
+    </div>
 
-      <i class="fas fa-heart nav_icon"></i>
-
-      <div class="nav_item nav_link">
-        <a href="events.html">Events</a>
+    <div class="product">
+      <a href="product_detail_pages/product_shark.html" class="detail_img_link"><div class="product_img shark"></div></a>
+      <div class="product_content">
+        <h2 class="product_title"><a href="product_detail_pages/product_shark.html">Shark in the ocean</a></h2>
+        <div class="product_detail">
+          <p class="product_price">$6.99</p>
+          <div class="ratings">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star no_fill"></i>
+            <i class="fas fa-star no_fill"></i>
+            <p class="rating_count">(430)</p>
+          </div>
+          <button class="cart">Add to Cart</button>
+        </div>
       </div>
 
+    </div>
 
-      <i class="fas fa-times nav_icon"></i>
+    <div class="product">
+      <a href="product_detail_pages/product_yellowflower.html" class="detail_img_link"><div class="product_img yellow_flower"></div></a>
 
-      <div class="nav_item nav_link">
-        <a class="shopping_cart" href="checkout.html">Cart (4)</a>
+      <div class="product_content">
+        <h2 class="product_title"><a href="product_detail_pages/product_yellowflower.html">Yellow Flower</a></h2>
+        <div class="product_detail">
+          <p class="product_price">$6.99</p>
+          <div class="ratings">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="fas fa-star no_fill"></i>
+            <p class="rating_count">(333)</p>
+          </div>
+          <button class="cart">Add to Cart</button>
+        </div>
       </div>
 
+    </div>
 
-    </nav>
+    <div class="product">
+      <a href="product_detail_pages/product_partybear.html" class="detail_img_link"><div class="product_img partybear"></div></a>
 
-<!--     <div class="added">
+      <div class="product_content">
+        <h2 class="product_title"><a href="product_detail_pages/product_partybear.html">Party Bear Card </a></h2>
 
-    </div> -->
-
-    <!-- The overall container wraps all the content -->
-    <!-- <main class="container"> -->
-      <!-- <h1>Handmade Greeting Cards</h1> -->
-      <section class="product_listings">
-
-
-        <div class="product">
-          <!-- <img src="img/RadDad.png" alt="fathers day card" class="product_img"> -->
-          <a href="product_detail_pages/product_roselove.html" class="detail_img_link"><div class="product_img rose_love"></div></a>
-
-          <div class="product_content">
-            <h2 class="product_title"><a href="product_detail_pages/product_roselove.html">Rose Love</a></h2>
-            <div class="product_detail">
-              <p class="product_price">$7.99</p>
-              <div class="ratings">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <p class="rating_count">(540)</p>
-              </div>
-              <button class="cart">Add to Cart</button>
-            </div>
+        <div class="product_detail">
+          <p class="product_price">$6.99</p>
+          <div class="ratings">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <p class="rating_count">(240)</p>
           </div>
-
+          <button class="cart">Add to Cart</button>
         </div>
+      </div>
 
-        <div class="product">
-          <!-- <img src="img/RadDad.png" alt="fathers day card" class="product_img"> -->
-          <a href="product_detail_pages/product_ship.html" class="detail_img_link"><div class="product_img ship"></div></a>
+    </div>
 
-          <div class="product_content">
-            <h2 class="product_title"><a href="product_detail_pages/product_ship.html">Ship</a></h2>
-            <div class="product_detail">
-              <p class="product_price">$6.99</p>
-              <div class="ratings">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star no_fill"></i>
-                <p class="rating_count">(502)</p>
-              </div>
-              <button class="cart">Add to Cart</button>
-            </div>
+    <div class="product">
+      <a href="product_detail_pages/product_parrot.html" class="detail_img_link"><div class="product_img parrot"></div></a>
+
+      <div class="product_content">
+        <h2 class="product_title"><a href="product_detail_pages/product_parrot.html">Parrot Love</a></h2>
+        <div class="product_detail">
+          <p class="product_price">$5.99</p>
+          <div class="ratings">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="fas fa-star no_fill"></i>
+            <i class="fas fa-star no_fill"></i>
+            <p class="rating_count">(233)</p>
           </div>
-
+          <button class="cart">Add to Cart</button>
         </div>
+      </div>
 
-        <div class="product">
-          <!-- <img src="img/RadDad.png" alt="fathers day card" class="product_img"> -->
-          <a href="product_detail_pages/product_shark.html" class="detail_img_link"><div class="product_img shark"></div></a>
+    </div>
 
-          <div class="product_content">
-            <h2 class="product_title"><a href="product_detail_pages/product_shark.html">Shark in the ocean</a></h2>
-            <div class="product_detail">
-              <p class="product_price">$6.99</p>
-              <div class="ratings">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star no_fill"></i>
-                <i class="fas fa-star no_fill"></i>
-                <p class="rating_count">(430)</p>
-              </div>
-              <button class="cart">Add to Cart</button>
-            </div>
+    <div class="product">
+      <a href="product_detail_pages/product_schoolbus.html" class="detail_img_link"><div class="product_img schoolbus"></div></a>
+
+      <div class="product_content">
+        <h2 class="product_title"><a href="product_detail_pages/product_schoolbus.html">School Bus</a></h2>
+        <div class="product_detail">
+          <p class="product_price">$5.99</p>
+          <div class="ratings">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="fas fa-star no_fill"></i>
+            <i class="fas fa-star no_fill"></i>
+            <p class="rating_count">(220)</p>
           </div>
-
+          <button class="cart">Add to Cart</button>
         </div>
+      </div>
 
-        <div class="product">
-          <!-- <img src="img/RadDad.png" alt="fathers day card" class="product_img"> -->
-          <a href="product_detail_pages/product_yellowflower.html" class="detail_img_link"><div class="product_img yellow_flower"></div></a>
+    </div>
 
-          <div class="product_content">
-            <h2 class="product_title"><a href="product_detail_pages/product_yellowflower.html">Yellow Flower</a></h2>
-            <div class="product_detail">
-              <p class="product_price">$6.99</p>
-              <div class="ratings">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <i class="fas fa-star no_fill"></i>
-                <p class="rating_count">(333)</p>
-              </div>
-              <button class="cart">Add to Cart</button>
-            </div>
+    <div class="product">
+      <a href="product_detail_pages/product_duck.html" class="detail_img_link"><div class="product_img duck"></div></a>
+
+      <div class="product_content">
+        <h2 class="product_title"><a href="product_detail_pages/product_duck.html">Cute Yellow Duck</a></h2>
+        <div class="product_detail">
+          <p class="product_price">$5.99</p>
+          <div class="ratings">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star no_fill"></i>
+            <i class="fas fa-star no_fill"></i>
+            <i class="fas fa-star no_fill"></i>
+            <p class="rating_count">(150)</p>
           </div>
-
+          <button class="cart">Add to Cart</button>
         </div>
+      </div>
 
-        <div class="product">
-          <!-- <img src="img/RadDad.png" alt="fathers day card" class="product_img"> -->
-          <a href="product_detail_pages/product_partybear.html" class="detail_img_link"><div class="product_img partybear"></div></a>
-
-          <div class="product_content">
-            <h2 class="product_title"><a href="product_detail_pages/product_partybear.html">Party Bear Card </a></h2>
-
-            <div class="product_detail">
-              <p class="product_price">$6.99</p>
-              <div class="ratings">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <p class="rating_count">(240)</p>
-              </div>
-              <button class="cart">Add to Cart</button>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="product">
-          <!-- <img src="img/RadDad.png" alt="fathers day card" class="product_img"> -->
-          <a href="product_detail_pages/product_parrot.html" class="detail_img_link"><div class="product_img parrot"></div></a>
-
-          <div class="product_content">
-            <h2 class="product_title"><a href="product_detail_pages/product_parrot.html">Parrot Love</a></h2>
-            <div class="product_detail">
-              <p class="product_price">$5.99</p>
-              <div class="ratings">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <i class="fas fa-star no_fill"></i>
-                <i class="fas fa-star no_fill"></i>
-                <p class="rating_count">(233)</p>
-              </div>
-              <button class="cart">Add to Cart</button>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="product">
-          <a href="product_detail_pages/product_schoolbus.html" class="detail_img_link"><div class="product_img schoolbus"></div></a>
-
-          <div class="product_content">
-            <h2 class="product_title"><a href="product_detail_pages/product_schoolbus.html">School Bus</a></h2>
-            <div class="product_detail">
-              <p class="product_price">$5.99</p>
-              <div class="ratings">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <i class="fas fa-star no_fill"></i>
-                <i class="fas fa-star no_fill"></i>
-                <p class="rating_count">(220)</p>
-              </div>
-              <button class="cart">Add to Cart</button>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="product">
-          <a href="product_detail_pages/product_duck.html" class="detail_img_link"><div class="product_img duck"></div></a>
-
-          <div class="product_content">
-            <h2 class="product_title"><a href="product_detail_pages/product_duck.html">Cute Yellow Duck</a></h2>
-            <div class="product_detail">
-              <p class="product_price">$5.99</p>
-              <div class="ratings">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star no_fill"></i>
-                <i class="fas fa-star no_fill"></i>
-                <i class="fas fa-star no_fill"></i>
-                <p class="rating_count">(150)</p>
-              </div>
-              <button class="cart">Add to Cart</button>
-            </div>
-          </div>
-
-        </div>
+    </div>
 
 
-      </section>
+  </section>
+  <!-- end of product listing section -->
 
-      <footer class="footer">
-        <div class="footer-content">
-          <div class="footer-info">
-            <p>Phone: (604)168-1688</p>
-            <p>Email: PopDesign@gmail.com</p>
-          </div>
-          <div class="footer-link">
-            We offer personalized handmade greeting cards.
-            <a href="styleguide.html" class="linked-text">styleguide</a>
-            <a href="citations.html" class="linked-text">citations</a>
-            <a href="https://github.com/leor8/PO2_Group20" class="linked-text">github</a>
-          </div>
-        </div>
-        <div class="footer-icons">
-          <div class="icons">
-            <i class="fab fa-facebook-f"></i>
-          </div>
-          <div class="icons">
-            <i class="fab fa-linkedin-in"></i>
-          </div>
-          <div class="icons">
-            <i class="fab fa-weixin"></i>
-          </div>
-          <div class="icons">
-            <i class="fab fa-twitter"></i>
-          </div>
-            <div class="icons">
-              <i class="fab fa-instagram"></i>
-            </div>
-            <div class="icons">
-              <i class="fab fa-pinterest-p"></i>
-            </div>
-          </div>
-    </footer>
-  </body>
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-info">
+        <p>Phone: (604)168-1688</p>
+        <p>Email: PopDesign@gmail.com</p>
+      </div>
+      <div class="footer-link">
+        We offer personalized handmade greeting cards.
+        <a href="styleguide.html" class="linked-text">styleguide</a>
+        <a href="citations.html" class="linked-text">citations</a>
+        <a href="https://github.com/leor8/PO2_Group20" class="linked-text">github</a>
+      </div>
+    </div>
+    <div class="footer-icons">
+      <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+      </div>
+      <div class="icons">
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+      <div class="icons">
+        <i class="fab fa-weixin"></i>
+      </div>
+      <div class="icons">
+        <i class="fab fa-twitter"></i>
+      </div>
+      <div class="icons">
+        <i class="fab fa-instagram"></i>
+      </div>
+      <div class="icons">
+        <i class="fab fa-pinterest-p"></i>
+      </div>
+    </div>
+  </footer>
+  <!-- end of footer -->
+</body>
 </html>

@@ -1,0 +1,28 @@
+@media screen and (min-width: 600px) {
+  .top_title{
+  height:150px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .top_title{
+  height:130px;
+  margin-bottom: 1rem;
+  }
+
+}
+
+.top_title{
+  margin-top:2rem;
+background-color:white;
+text-align: center;
+width:100%;
+margin-bottom: 2rem;
+
+}
+.title_img{
+width:330px;
+margin-top:2.2rem;
+
+}

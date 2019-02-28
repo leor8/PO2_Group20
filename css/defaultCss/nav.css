@@ -1,5 +1,5 @@
 /* This is a stylesheet for navigation bar */
-
+/* the containter of the navigation */
 .navContainer {
   display: flex;
   width: 100%;
@@ -10,6 +10,7 @@
 .active {
 }
 
+/* make the text in the center */
 .nav_item {
   flex: 1;
   text-align: center;
@@ -17,6 +18,7 @@
   margin: auto;
 }
 
+/* each navigation link */
 .nav_link > a {
   text-decoration: none;
   color: #9aa3f7;
@@ -39,9 +41,6 @@
   }
 }
 
-
-
-
 /* Removing icons between nav items and leave more space*/
 @media screen and (max-width: 963px) {
   .nav_icon {
@@ -49,6 +48,8 @@
     display: none !important;
   }
 }
+/* end of @media screen and (max-width: 963px)  */
+
 
 @media screen and (min-width: 963px) {
   .nav_icon {
@@ -66,18 +67,24 @@
     color: #ffaec5;
   }
 }
+/* end of @media screen and (min-width: 963px)  */
 
+/* The logo on the top  */
 .logo {
   width: 100px;
   display: block;
   margin: auto;
   margin-top: 1rem;
 }
+/* clear interaction of logo on the top */
+
 .logo:hover {
+  /* the scale will change when the mouse is hovered on the logo */
   width: 110px;
   display: block;
   margin: auto;
   margin-top: 0.5rem;
+  /* make the transition smooth */
   transition: all ease-in-out .2s;
 
 }

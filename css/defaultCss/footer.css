@@ -1,7 +1,7 @@
 
 /* This whole background of the footer and coloumn display*/
 
-@media screen and (min-width: 930px) {
+@media screen and (min-width: 500px) {
   .footer {
     background-color: white;
     /*height: 200px;*/
@@ -36,7 +36,7 @@
 
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 500px) {
   .footer {
     background-color: white;
     /*height: 200px;*/
@@ -71,7 +71,18 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  .footer-content{
+    flex:1;
+  }
+  .footer-icons{
+    flex:1;
+    margin-top:0rem;
+    order:-1;
+
+  }
 }
+
 
 
 
@@ -149,4 +160,36 @@
   background-color: #ffe6ff;
   padding-top:0;
   text-decoration:underline;
+}
+/* footer */
+.footer-content{
+  height: 200px;
+  margin-right: 10%;
+  margin-left: 10%;
+  /* width: 800px; */
+  flex:2.5;
+
+}
+.footer-info{
+  margin-top: 2rem;
+margin-bottom: 2rem;
+}
+.footer-link{
+max-width:300px;
+}
+/* default footer icons */
+.footer-icons{
+font-size: 1.5rem;
+margin-top:2rem;
+margin-right: 10%;
+margin-left: 10%;
+
+flex:1;
+}
+.footer-icons > i{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+
+  display:inline-block;
+  margin-bottom: 1.5rem;
 }

@@ -1,3 +1,5 @@
+/* This is a stylesheet for navigation bar */
+
 .navContainer {
   display: flex;
   width: 100%;
@@ -19,15 +21,25 @@
   text-decoration: none;
   color: #9aa3f7;
   padding: .5rem;
-  padding-bottom: .6rem;
+  margin-bottom: .6rem;
+  width: 100%;
+  left: 0;
+
 }
 
 /* Threshold for text being in one line*/
 @media screen and (min-width: 603px) {
   .nav_link > a:hover {
     border-bottom: 4px dotted #9aa3f7;
+      transition: all ease-in-out .2s;
+      width: 0px;
+      height: 10px;
+      left: 50%;
+      content: '';
   }
 }
+
+
 
 
 /* Removing icons between nav items and leave more space*/
@@ -60,4 +72,12 @@
   display: block;
   margin: auto;
   margin-top: 1rem;
+}
+.logo:hover {
+  width: 110px;
+  display: block;
+  margin: auto;
+  margin-top: 0.5rem;
+  transition: all ease-in-out .2s;
+
 }

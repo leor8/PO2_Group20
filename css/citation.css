@@ -19,11 +19,13 @@
   margin-bottom: 2rem;
   margin-top:2rem;
 }
-
+/* paragraph style */
 .citation_text{
   font-weight: 400;
   font-size: 0.9rem;
-margin: 0;
-padding-top: 1rem;
+  margin: 0;
+  padding-top: 1rem;
+  font-family: Helvetica;
+  line-height: 1.2rem;
 
 }

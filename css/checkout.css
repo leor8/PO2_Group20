@@ -100,13 +100,17 @@
     margin-left: -2rem;
   }
 
+  .cart_item {
+    flex-direction: column;
+    height: 450px !important;
+  }
+
   .item_img {
-    display: none;
+    /*display: none;*/
+    margin: auto;
   }
 
   .item_title {
-    /*display: block !important;*/
-    /*width: 140px;*/
     margin: auto;
     text-align: center;
   }
@@ -177,7 +181,7 @@
 .cart_items {
   flex: 3;
   /*background-color: red;*/
-  height: 804px;
+  height: 1804px;
 }
 
 .cart_heading {
@@ -209,7 +213,7 @@
   flex: 4;
   display: block;
   height: auto;
-  width: 400px;
+  width: 100%;
 
   text-align: right;
   margin-right: 2rem;

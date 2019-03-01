@@ -102,7 +102,7 @@
 
 /* All the descriptions about this product*/
 .product_description {
-  background-color: rgb(230,230,230);
+  background-color: rgb(252,252,252);
 
   display: block;
   width: calc(100% - 2rem);

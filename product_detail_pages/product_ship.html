@@ -1,125 +1,127 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
 
-        <title>PopDesign</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PopDesign</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="icon" href="../img/logo.png">
-        <!-- Required css for all pages -->
-        <link rel="stylesheet" href="../css/defaultCss/normalize.css">
-        <link rel="stylesheet" href="../css/defaultCss/main.css">
-        <link rel="stylesheet" href="../css/defaultCss/nav.css">
-        <link rel="stylesheet" href="../css/defaultCss/footer.css">
+  <link rel="icon" href="../img/logo.png">
+  <!-- Required css for all pages -->
+  <link rel="stylesheet" href="../css/defaultCss/normalize.css">
+  <link rel="stylesheet" href="../css/defaultCss/main.css">
+  <link rel="stylesheet" href="../css/defaultCss/nav.css">
+  <link rel="stylesheet" href="../css/defaultCss/footer.css">
 
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-        <link rel="stylesheet" type="text/css" href="../css/detail.css">
-    </head>
+  <link rel="stylesheet" type="text/css" href="../css/detail.css">
+</head>
 
-    <body>
+<body>
 
-      <!-- navigation bar for switching between different pages, i.e. styleguide, product listing pages -->
-      <header>
-        <a href="../home.html"><img src="../img/logo.png" alt="company logo" class="logo"></a>
-      </header>
-      <nav class="navContainer">
-        <div class="nav_item nav_link">
-          <a href="../home.html">Home</a>
+  <!-- navigation bar for switching between different pages, i.e. styleguide, product listing pages -->
+  <header>
+    <a href="../home.html"><img src="../img/logo.png" alt="company logo" class="logo"></a>
+  </header>
+  <nav class="navContainer">
+    <div class="nav_item nav_link">
+      <a href="../home.html">Home</a>
+    </div>
+
+    <i class="fas fa-times nav_icon"></i>
+
+    <div class="nav_item nav_link active">
+      <a href="../product_listing.html">Product</a>
+    </div>
+
+
+    <i class="fas fa-heart nav_icon"></i>
+
+    <div class="nav_item nav_link">
+      <a href="../events.html">Events</a>
+    </div>
+
+
+    <i class="fas fa-times nav_icon"></i>
+
+    <div class="nav_item nav_link">
+      <a class="shopping_cart" href="../checkout.html">Cart (4)</a>
+    </div>
+
+
+  </nav>
+
+  <main class="product_detail">
+    <!-- Product image -->
+    <div class="product_image_container">
+      <img src="../img/product/ship/ship-1.jpg" alt="product image" class="product_image">
+    </div>
+
+    <!-- Product rating and price -->
+    <div class="product_info">
+      <h1 class="product_name"> Ship </h1>
+      <div class="price_rating">
+        <p class="product_price">$6.99</p>
+        <div class="ratings">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star no_fill"></i>
+          <p class="rating_count">(502)</p>
         </div>
+      </div>
 
-        <i class="fas fa-times nav_icon"></i>
+      <button class="cart" onclick="location.href='../checkout.html'">Add to Cart</button>
 
-        <div class="nav_item nav_link active">
-          <a href="../product_listing.html">Product</a>
-        </div>
+      <div class="product_description">
+        <p class="description_text">
+          Just a glance at the bright blue and white cover will whisk you away to the high seas. As you clear the harbour and set sail, lean into the wind and experience the joy of sailing. The Set Sail 3D pop-up card opens to an exquisitely detailed ship with impressive masts and sails fluttering in the breeze. This miniature model looks like a replica of rugged seafaring vessels of old.
+        </p>
+      </div>
+    </div>
 
+  </main>
 
-        <i class="fas fa-heart nav_icon"></i>
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-info">
 
-        <div class="nav_item nav_link">
-          <a href="../events.html">Events</a>
-        </div>
-
-
-        <i class="fas fa-times nav_icon"></i>
-
-        <div class="nav_item nav_link">
-          <a class="shopping_cart" href="../checkout.html">Cart (4)</a>
-        </div>
-
-
-      </nav>
-
-      <main class="product_detail">
-        <!-- Product image -->
-        <div class="product_image_container">
-          <img src="../img/product/ship/ship-1.jpg" alt="product image" class="product_image">
-        </div>
-
-        <!-- Product rating and price -->
-        <div class="product_info">
-          <h1 class="product_name"> Ship </h1>
-          <div class="price_rating">
-            <p class="product_price">$6.99</p>
-            <div class="ratings">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star no_fill"></i>
-              <p class="rating_count">(502)</p>
-            </div>
-          </div>
-
-          <button class="cart" onclick="location.href='../checkout.html'">Add to Cart</button>
-
-          <div class="product_description">
-            <p class="description_text">Just a glance at the distinct blue and white cover will whisk you away to the high seas. As you clear the harbor and set sail, just lean into the wind and experience the joy of sailing. The Set Sail 3D pop-up card opens to an exquisitely detailed ship with impressive masts and sails fluttering in the wind. This miniature model looks like a replica of rugged seafaring vessels of old.</p>
-          </div>
-        </div>
-
-      </main>
-
-      <footer class="footer">
-        <div class="footer-content">
-          <div class="footer-info">
-
-            <a href="tel:006041681699" class="linked-contact">Phone: (604)168-1688</a>
-            <br>
-            <a href="mailto:PopDesign@gmail.com" class="linked-contact">Email: PopDesign@gmail.com</a>
-          </div>
-          <div class="footer-link">
-            <p>We offer personalized handmade greeting cards.
-              <a href="../styleguide.html" class="linked-text">styleguide, </a>
-              <a href="../citations.html" class="linked-text">citations,</a>
-              <a href="https://github.com/leor8/PO2_Group20" class="linked-text">github</a>
-            </p>
-          </div>
-          <small>© PopDesign Studio All Rights Reserved.</small>
-        </div>
-        <div class="footer-icons">
-          <div class="icons">
-            <i class="fab fa-facebook-f"></i>
-          </div>
-          <div class="icons">
-            <i class="fab fa-linkedin-in"></i>
-          </div>
-          <div class="icons">
-            <i class="fab fa-weixin"></i>
-          </div>
-          <div class="icons">
-            <i class="fab fa-twitter"></i>
-          </div>
-          <div class="icons">
-            <i class="fab fa-instagram"></i>
-          </div>
-          <div class="icons">
-            <i class="fab fa-pinterest-p"></i>
-          </div>
-        </div>
-      </footer>
-    </body>
+        <a href="tel:006041681699" class="linked-contact">Phone: (604)168-1688</a>
+        <br>
+        <a href="mailto:PopDesign@gmail.com" class="linked-contact">Email: PopDesign@gmail.com</a>
+      </div>
+      <div class="footer-link">
+        <p>We offer personalized handmade greeting cards.
+          <a href="../styleguide.html" class="linked-text">styleguide, </a>
+          <a href="../citations.html" class="linked-text">citations,</a>
+          <a href="https://github.com/leor8/PO2_Group20" class="linked-text">github</a>
+        </p>
+      </div>
+      <small>© PopDesign Studio All Rights Reserved.</small>
+    </div>
+    <div class="footer-icons">
+      <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+      </div>
+      <div class="icons">
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+      <div class="icons">
+        <i class="fab fa-weixin"></i>
+      </div>
+      <div class="icons">
+        <i class="fab fa-twitter"></i>
+      </div>
+      <div class="icons">
+        <i class="fab fa-instagram"></i>
+      </div>
+      <div class="icons">
+        <i class="fab fa-pinterest-p"></i>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>

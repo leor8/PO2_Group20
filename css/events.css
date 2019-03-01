@@ -35,6 +35,9 @@
     max-width: 400px;
     line-height: 180%;
   }
+  .headline_title{
+    margin-left: 2.5rem;
+  }
 }
 
 @media screen and (max-width: 805px) {
@@ -83,7 +86,7 @@
   .headline_reverse {
     order: -1;
   }
-  
+
 
 }
 
@@ -97,8 +100,6 @@
   font-size: 1.5rem;
 
   /* Reseeting default font size for h1*/
-  /*text-align: center;*/
-  margin-left: 2.5rem;
   color:#9aa3f7;
   font-style: italic;
 

@@ -4,15 +4,17 @@
   background-color: white;
   padding: 2rem;
 }
+
 .citations{
   padding-top:2rem;
   border-top: 1px solid grey;
   margin-bottom: 2rem;
   margin-top:2rem;
-  min-width:210px;
+  /* min-width:210px; */
   height:auto;
   max-width: 100%;
 }
+/* imager source border line */
 #image_source, #code_source{
   padding-top:1rem;
   border-top: 2px solid #ffaec5;

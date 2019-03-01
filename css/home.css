@@ -41,9 +41,8 @@ h2{
 
 .flex-half-about{
   width: 45%;
-  /* background: #f4f4f4; */
   display: inline-block;
-  padding: 70px 50px;
+  padding:0;
 }
 .bg_lighter{
   background-color: #f9eff1;
@@ -70,6 +69,9 @@ li{
   font-family: Helvetica;
   list-style-type: none;
   font-size: 0.95rem;
+  max-width: 200px;
+  margin:auto;
+
 }
 .standard_btn {
   font-size: 0.88rem;
@@ -246,6 +248,10 @@ tbody {
   .table_standard th {
     width: 320px;
   }
+ .flex-half-about{
+   height:500px;
+}
+
 }
 
 @media screen and (max-width: 699px) {
@@ -260,8 +266,12 @@ tbody {
     width: 90%;
     /* background: #f4f4f4; */
     display: inline-block;
-    padding: 90px 60px;
+    height:420px;
   }
+
+.bg_darker{
+  height:300px ;
+}
   .info_list{
     min-height: auto;
     text-align: center;

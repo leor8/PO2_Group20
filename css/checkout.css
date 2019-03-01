@@ -117,7 +117,7 @@
 
   .btns {
     display: block;
-    width: 290px;
+    width: 100%;
     margin:auto;
   }
 
@@ -171,7 +171,7 @@
 
   .button-form-submit  {
     /*Override outside css because input length are not full length so the button cannot be centered using margin auto*/
-    margin-left: 24% !important;
+    margin-left: 3.5rem !important;
   }
 
 }
@@ -251,7 +251,7 @@
   border: 1px solid #9aa3f7;
   border-radius: 3px;
   padding: .2rem;
-  min-width: 8em;
+  min-width: 6em;
 
   display: inline-block;
 }
@@ -278,7 +278,7 @@
   background-color:white;
   border: 1px solid #9aa3f7;
   border-radius: 3px;
-  min-width: 8em;
+  min-width: 6em;
 
   display: inline-block;
 }
@@ -412,4 +412,8 @@ form > div {
 }
 .payment_form{
   font-family: Helvetica;
+}
+
+.checkout_form > div {
+  width: 90%;
 }

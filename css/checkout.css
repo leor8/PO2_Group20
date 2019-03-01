@@ -417,3 +417,7 @@ form > div {
 .checkout_form > div {
   width: 90%;
 }
+
+label {
+  font-family: Helvetica;
+}

@@ -22,7 +22,7 @@
   }
 
   .headline_content {
-    height: 400px;
+    height: 500px;
     flex: 1;
 
     /* for button responsiveness*/
@@ -57,7 +57,7 @@
   }
 
   .headline_content {
-    height: 350px;
+    height: 430px;
     width: 80%;
     margin: auto;
     background-color: white;

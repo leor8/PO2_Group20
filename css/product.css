@@ -16,6 +16,10 @@
     content: '';
     width: 28.4vw;
   }
+  .product{
+    margin-left: 0.4rem;
+
+  }
  }
 
 
@@ -23,11 +27,9 @@
 .product {
   flex: 1 0 30%;
   margin: auto;
-  /*padding-right: 2rem;*/
-  margin-left: 0.4rem;
+  margin-left: 0rem;
   margin-bottom: 3rem;
 
-  /*max-width: 220px;*/
 }
 
 .product_content {

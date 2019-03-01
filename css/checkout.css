@@ -62,6 +62,10 @@
     padding-top: 2rem;
   }
 
+  .cart_items {
+    height: 900px;
+  }
+
   .checkout_form {
     padding-top: 3rem;
     width: 92%;
@@ -98,6 +102,7 @@
 
   .cart_items {
     margin-left: -2rem;
+    height: 1804px;
   }
 
   .cart_item {
@@ -181,7 +186,6 @@
 .cart_items {
   flex: 3;
   /*background-color: red;*/
-  height: 1804px;
 }
 
 .cart_heading {
